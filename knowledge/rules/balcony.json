@@ -1,0 +1,249 @@
+{
+  "category": "Balcony",
+  "rules": [
+    {
+      "rule_id": "VK-055",
+      "title": "Balcony in North",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "North",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BAL-001"
+      ],
+      "tags": [
+        "balcony",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-056",
+      "title": "Balcony in North-East",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "North-East",
+      "polarity": "positive",
+      "score_delta": 5,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BAL-001"
+      ],
+      "tags": [
+        "balcony",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-057",
+      "title": "Balcony in East",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BAL-001"
+      ],
+      "tags": [
+        "balcony",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-058",
+      "title": "Balcony in South-East",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "balcony",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-059",
+      "title": "Balcony in South",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "South",
+      "polarity": "negative",
+      "score_delta": -1,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BAL-001"
+      ],
+      "tags": [
+        "balcony",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-060",
+      "title": "Balcony in South-West",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BAL-001"
+      ],
+      "tags": [
+        "balcony",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-061",
+      "title": "Balcony in West",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "balcony",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-062",
+      "title": "Balcony in North-West",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "balcony",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-063",
+      "title": "Balcony in Centre",
+      "category": "Balcony",
+      "field": "balcony_direction",
+      "direction": "Centre",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East balconies are commonly preferred.",
+      "practical_impact": "Affects facade and natural-light recommendations.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "balcony",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,676 @@
+{
+  "links": [
+    {
+      "source_rule_id": "VK-059",
+      "target_rule_id": "VK-055",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Balcony."
+    },
+    {
+      "source_rule_id": "VK-059",
+      "target_rule_id": "VK-056",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Balcony."
+    },
+    {
+      "source_rule_id": "VK-060",
+      "target_rule_id": "VK-055",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Balcony."
+    },
+    {
+      "source_rule_id": "VK-060",
+      "target_rule_id": "VK-056",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Balcony."
+    },
+    {
+      "source_rule_id": "VK-056",
+      "target_rule_id": "VK-055",
+      "relationship": "same_category",
+      "note": "Related Balcony knowledge object."
+    },
+    {
+      "source_rule_id": "VK-057",
+      "target_rule_id": "VK-055",
+      "relationship": "same_category",
+      "note": "Related Balcony knowledge object."
+    },
+    {
+      "source_rule_id": "VK-058",
+      "target_rule_id": "VK-055",
+      "relationship": "same_category",
+      "note": "Related Balcony knowledge object."
+    },
+    {
+      "source_rule_id": "VK-059",
+      "target_rule_id": "VK-055",
+      "relationship": "same_category",
+      "note": "Related Balcony knowledge object."
+    },
+    {
+      "source_rule_id": "VK-060",
+      "target_rule_id": "VK-055",
+      "relationship": "same_category",
+      "note": "Related Balcony knowledge object."
+    },
+    {
+      "source_rule_id": "VK-061",
+      "target_rule_id": "VK-055",
+      "relationship": "same_category",
+      "note": "Related Balcony knowledge object."
+    },
+    {
+      "source_rule_id": "VK-062",
+      "target_rule_id": "VK-055",
+      "relationship": "same_category",
+      "note": "Related Balcony knowledge object."
+    },
+    {
+      "source_rule_id": "VK-063",
+      "target_rule_id": "VK-055",
+      "relationship": "same_category",
+      "note": "Related Balcony knowledge object."
+    },
+    {
+      "source_rule_id": "VK-074",
+      "target_rule_id": "VK-073",
+      "relationship": "same_category",
+      "note": "Related Brahmasthan knowledge object."
+    },
+    {
+      "source_rule_id": "VK-075",
+      "target_rule_id": "VK-073",
+      "relationship": "same_category",
+      "note": "Related Brahmasthan knowledge object."
+    },
+    {
+      "source_rule_id": "VK-076",
+      "target_rule_id": "VK-073",
+      "relationship": "same_category",
+      "note": "Related Brahmasthan knowledge object."
+    },
+    {
+      "source_rule_id": "VK-077",
+      "target_rule_id": "VK-073",
+      "relationship": "same_category",
+      "note": "Related Brahmasthan knowledge object."
+    },
+    {
+      "source_rule_id": "VK-078",
+      "target_rule_id": "VK-073",
+      "relationship": "same_category",
+      "note": "Related Brahmasthan knowledge object."
+    },
+    {
+      "source_rule_id": "VK-079",
+      "target_rule_id": "VK-073",
+      "relationship": "same_category",
+      "note": "Related Brahmasthan knowledge object."
+    },
+    {
+      "source_rule_id": "VK-080",
+      "target_rule_id": "VK-073",
+      "relationship": "same_category",
+      "note": "Related Brahmasthan knowledge object."
+    },
+    {
+      "source_rule_id": "VK-081",
+      "target_rule_id": "VK-073",
+      "relationship": "same_category",
+      "note": "Related Brahmasthan knowledge object."
+    },
+    {
+      "source_rule_id": "VK-005",
+      "target_rule_id": "VK-001",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Entrance."
+    },
+    {
+      "source_rule_id": "VK-005",
+      "target_rule_id": "VK-002",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Entrance."
+    },
+    {
+      "source_rule_id": "VK-006",
+      "target_rule_id": "VK-001",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Entrance."
+    },
+    {
+      "source_rule_id": "VK-006",
+      "target_rule_id": "VK-002",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Entrance."
+    },
+    {
+      "source_rule_id": "VK-009",
+      "target_rule_id": "VK-001",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Entrance."
+    },
+    {
+      "source_rule_id": "VK-009",
+      "target_rule_id": "VK-002",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Entrance."
+    },
+    {
+      "source_rule_id": "VK-002",
+      "target_rule_id": "VK-001",
+      "relationship": "same_category",
+      "note": "Related Entrance knowledge object."
+    },
+    {
+      "source_rule_id": "VK-003",
+      "target_rule_id": "VK-001",
+      "relationship": "same_category",
+      "note": "Related Entrance knowledge object."
+    },
+    {
+      "source_rule_id": "VK-004",
+      "target_rule_id": "VK-001",
+      "relationship": "same_category",
+      "note": "Related Entrance knowledge object."
+    },
+    {
+      "source_rule_id": "VK-005",
+      "target_rule_id": "VK-001",
+      "relationship": "same_category",
+      "note": "Related Entrance knowledge object."
+    },
+    {
+      "source_rule_id": "VK-006",
+      "target_rule_id": "VK-001",
+      "relationship": "same_category",
+      "note": "Related Entrance knowledge object."
+    },
+    {
+      "source_rule_id": "VK-007",
+      "target_rule_id": "VK-001",
+      "relationship": "same_category",
+      "note": "Related Entrance knowledge object."
+    },
+    {
+      "source_rule_id": "VK-008",
+      "target_rule_id": "VK-001",
+      "relationship": "same_category",
+      "note": "Related Entrance knowledge object."
+    },
+    {
+      "source_rule_id": "VK-009",
+      "target_rule_id": "VK-001",
+      "relationship": "same_category",
+      "note": "Related Entrance knowledge object."
+    },
+    {
+      "source_rule_id": "VK-011",
+      "target_rule_id": "VK-013",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Kitchen."
+    },
+    {
+      "source_rule_id": "VK-011",
+      "target_rule_id": "VK-017",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Kitchen."
+    },
+    {
+      "source_rule_id": "VK-015",
+      "target_rule_id": "VK-013",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Kitchen."
+    },
+    {
+      "source_rule_id": "VK-015",
+      "target_rule_id": "VK-017",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Kitchen."
+    },
+    {
+      "source_rule_id": "VK-018",
+      "target_rule_id": "VK-013",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Kitchen."
+    },
+    {
+      "source_rule_id": "VK-018",
+      "target_rule_id": "VK-017",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Kitchen."
+    },
+    {
+      "source_rule_id": "VK-011",
+      "target_rule_id": "VK-010",
+      "relationship": "same_category",
+      "note": "Related Kitchen knowledge object."
+    },
+    {
+      "source_rule_id": "VK-012",
+      "target_rule_id": "VK-010",
+      "relationship": "same_category",
+      "note": "Related Kitchen knowledge object."
+    },
+    {
+      "source_rule_id": "VK-013",
+      "target_rule_id": "VK-010",
+      "relationship": "same_category",
+      "note": "Related Kitchen knowledge object."
+    },
+    {
+      "source_rule_id": "VK-014",
+      "target_rule_id": "VK-010",
+      "relationship": "same_category",
+      "note": "Related Kitchen knowledge object."
+    },
+    {
+      "source_rule_id": "VK-015",
+      "target_rule_id": "VK-010",
+      "relationship": "same_category",
+      "note": "Related Kitchen knowledge object."
+    },
+    {
+      "source_rule_id": "VK-016",
+      "target_rule_id": "VK-010",
+      "relationship": "same_category",
+      "note": "Related Kitchen knowledge object."
+    },
+    {
+      "source_rule_id": "VK-017",
+      "target_rule_id": "VK-010",
+      "relationship": "same_category",
+      "note": "Related Kitchen knowledge object."
+    },
+    {
+      "source_rule_id": "VK-018",
+      "target_rule_id": "VK-010",
+      "relationship": "same_category",
+      "note": "Related Kitchen knowledge object."
+    },
+    {
+      "source_rule_id": "VK-051",
+      "target_rule_id": "VK-046",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Living Room."
+    },
+    {
+      "source_rule_id": "VK-051",
+      "target_rule_id": "VK-047",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Living Room."
+    },
+    {
+      "source_rule_id": "VK-054",
+      "target_rule_id": "VK-046",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Living Room."
+    },
+    {
+      "source_rule_id": "VK-054",
+      "target_rule_id": "VK-047",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Living Room."
+    },
+    {
+      "source_rule_id": "VK-047",
+      "target_rule_id": "VK-046",
+      "relationship": "same_category",
+      "note": "Related Living Room knowledge object."
+    },
+    {
+      "source_rule_id": "VK-048",
+      "target_rule_id": "VK-046",
+      "relationship": "same_category",
+      "note": "Related Living Room knowledge object."
+    },
+    {
+      "source_rule_id": "VK-049",
+      "target_rule_id": "VK-046",
+      "relationship": "same_category",
+      "note": "Related Living Room knowledge object."
+    },
+    {
+      "source_rule_id": "VK-050",
+      "target_rule_id": "VK-046",
+      "relationship": "same_category",
+      "note": "Related Living Room knowledge object."
+    },
+    {
+      "source_rule_id": "VK-051",
+      "target_rule_id": "VK-046",
+      "relationship": "same_category",
+      "note": "Related Living Room knowledge object."
+    },
+    {
+      "source_rule_id": "VK-052",
+      "target_rule_id": "VK-046",
+      "relationship": "same_category",
+      "note": "Related Living Room knowledge object."
+    },
+    {
+      "source_rule_id": "VK-053",
+      "target_rule_id": "VK-046",
+      "relationship": "same_category",
+      "note": "Related Living Room knowledge object."
+    },
+    {
+      "source_rule_id": "VK-054",
+      "target_rule_id": "VK-046",
+      "relationship": "same_category",
+      "note": "Related Living Room knowledge object."
+    },
+    {
+      "source_rule_id": "VK-020",
+      "target_rule_id": "VK-023",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Master Bedroom."
+    },
+    {
+      "source_rule_id": "VK-020",
+      "target_rule_id": "VK-024",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Master Bedroom."
+    },
+    {
+      "source_rule_id": "VK-022",
+      "target_rule_id": "VK-023",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Master Bedroom."
+    },
+    {
+      "source_rule_id": "VK-022",
+      "target_rule_id": "VK-024",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Master Bedroom."
+    },
+    {
+      "source_rule_id": "VK-027",
+      "target_rule_id": "VK-023",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Master Bedroom."
+    },
+    {
+      "source_rule_id": "VK-027",
+      "target_rule_id": "VK-024",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Master Bedroom."
+    },
+    {
+      "source_rule_id": "VK-020",
+      "target_rule_id": "VK-019",
+      "relationship": "same_category",
+      "note": "Related Master Bedroom knowledge object."
+    },
+    {
+      "source_rule_id": "VK-021",
+      "target_rule_id": "VK-019",
+      "relationship": "same_category",
+      "note": "Related Master Bedroom knowledge object."
+    },
+    {
+      "source_rule_id": "VK-022",
+      "target_rule_id": "VK-019",
+      "relationship": "same_category",
+      "note": "Related Master Bedroom knowledge object."
+    },
+    {
+      "source_rule_id": "VK-023",
+      "target_rule_id": "VK-019",
+      "relationship": "same_category",
+      "note": "Related Master Bedroom knowledge object."
+    },
+    {
+      "source_rule_id": "VK-024",
+      "target_rule_id": "VK-019",
+      "relationship": "same_category",
+      "note": "Related Master Bedroom knowledge object."
+    },
+    {
+      "source_rule_id": "VK-025",
+      "target_rule_id": "VK-019",
+      "relationship": "same_category",
+      "note": "Related Master Bedroom knowledge object."
+    },
+    {
+      "source_rule_id": "VK-026",
+      "target_rule_id": "VK-019",
+      "relationship": "same_category",
+      "note": "Related Master Bedroom knowledge object."
+    },
+    {
+      "source_rule_id": "VK-027",
+      "target_rule_id": "VK-019",
+      "relationship": "same_category",
+      "note": "Related Master Bedroom knowledge object."
+    },
+    {
+      "source_rule_id": "VK-042",
+      "target_rule_id": "VK-037",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Pooja."
+    },
+    {
+      "source_rule_id": "VK-042",
+      "target_rule_id": "VK-038",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Pooja."
+    },
+    {
+      "source_rule_id": "VK-045",
+      "target_rule_id": "VK-037",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Pooja."
+    },
+    {
+      "source_rule_id": "VK-045",
+      "target_rule_id": "VK-038",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Pooja."
+    },
+    {
+      "source_rule_id": "VK-038",
+      "target_rule_id": "VK-037",
+      "relationship": "same_category",
+      "note": "Related Pooja knowledge object."
+    },
+    {
+      "source_rule_id": "VK-039",
+      "target_rule_id": "VK-037",
+      "relationship": "same_category",
+      "note": "Related Pooja knowledge object."
+    },
+    {
+      "source_rule_id": "VK-040",
+      "target_rule_id": "VK-037",
+      "relationship": "same_category",
+      "note": "Related Pooja knowledge object."
+    },
+    {
+      "source_rule_id": "VK-041",
+      "target_rule_id": "VK-037",
+      "relationship": "same_category",
+      "note": "Related Pooja knowledge object."
+    },
+    {
+      "source_rule_id": "VK-042",
+      "target_rule_id": "VK-037",
+      "relationship": "same_category",
+      "note": "Related Pooja knowledge object."
+    },
+    {
+      "source_rule_id": "VK-043",
+      "target_rule_id": "VK-037",
+      "relationship": "same_category",
+      "note": "Related Pooja knowledge object."
+    },
+    {
+      "source_rule_id": "VK-044",
+      "target_rule_id": "VK-037",
+      "relationship": "same_category",
+      "note": "Related Pooja knowledge object."
+    },
+    {
+      "source_rule_id": "VK-045",
+      "target_rule_id": "VK-037",
+      "relationship": "same_category",
+      "note": "Related Pooja knowledge object."
+    },
+    {
+      "source_rule_id": "VK-065",
+      "target_rule_id": "VK-068",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Staircase."
+    },
+    {
+      "source_rule_id": "VK-065",
+      "target_rule_id": "VK-069",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Staircase."
+    },
+    {
+      "source_rule_id": "VK-072",
+      "target_rule_id": "VK-068",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Staircase."
+    },
+    {
+      "source_rule_id": "VK-072",
+      "target_rule_id": "VK-069",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Staircase."
+    },
+    {
+      "source_rule_id": "VK-065",
+      "target_rule_id": "VK-064",
+      "relationship": "same_category",
+      "note": "Related Staircase knowledge object."
+    },
+    {
+      "source_rule_id": "VK-066",
+      "target_rule_id": "VK-064",
+      "relationship": "same_category",
+      "note": "Related Staircase knowledge object."
+    },
+    {
+      "source_rule_id": "VK-067",
+      "target_rule_id": "VK-064",
+      "relationship": "same_category",
+      "note": "Related Staircase knowledge object."
+    },
+    {
+      "source_rule_id": "VK-068",
+      "target_rule_id": "VK-064",
+      "relationship": "same_category",
+      "note": "Related Staircase knowledge object."
+    },
+    {
+      "source_rule_id": "VK-069",
+      "target_rule_id": "VK-064",
+      "relationship": "same_category",
+      "note": "Related Staircase knowledge object."
+    },
+    {
+      "source_rule_id": "VK-070",
+      "target_rule_id": "VK-064",
+      "relationship": "same_category",
+      "note": "Related Staircase knowledge object."
+    },
+    {
+      "source_rule_id": "VK-071",
+      "target_rule_id": "VK-064",
+      "relationship": "same_category",
+      "note": "Related Staircase knowledge object."
+    },
+    {
+      "source_rule_id": "VK-072",
+      "target_rule_id": "VK-064",
+      "relationship": "same_category",
+      "note": "Related Staircase knowledge object."
+    },
+    {
+      "source_rule_id": "VK-029",
+      "target_rule_id": "VK-032",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Toilet."
+    },
+    {
+      "source_rule_id": "VK-029",
+      "target_rule_id": "VK-034",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Toilet."
+    },
+    {
+      "source_rule_id": "VK-033",
+      "target_rule_id": "VK-032",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Toilet."
+    },
+    {
+      "source_rule_id": "VK-033",
+      "target_rule_id": "VK-034",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Toilet."
+    },
+    {
+      "source_rule_id": "VK-036",
+      "target_rule_id": "VK-032",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Toilet."
+    },
+    {
+      "source_rule_id": "VK-036",
+      "target_rule_id": "VK-034",
+      "relationship": "preferred_alternative",
+      "note": "Preferred directional alternative within Toilet."
+    },
+    {
+      "source_rule_id": "VK-029",
+      "target_rule_id": "VK-028",
+      "relationship": "same_category",
+      "note": "Related Toilet knowledge object."
+    },
+    {
+      "source_rule_id": "VK-030",
+      "target_rule_id": "VK-028",
+      "relationship": "same_category",
+      "note": "Related Toilet knowledge object."
+    },
+    {
+      "source_rule_id": "VK-031",
+      "target_rule_id": "VK-028",
+      "relationship": "same_category",
+      "note": "Related Toilet knowledge object."
+    },
+    {
+      "source_rule_id": "VK-032",
+      "target_rule_id": "VK-028",
+      "relationship": "same_category",
+      "note": "Related Toilet knowledge object."
+    },
+    {
+      "source_rule_id": "VK-033",
+      "target_rule_id": "VK-028",
+      "relationship": "same_category",
+      "note": "Related Toilet knowledge object."
+    },
+    {
+      "source_rule_id": "VK-034",
+      "target_rule_id": "VK-028",
+      "relationship": "same_category",
+      "note": "Related Toilet knowledge object."
+    },
+    {
+      "source_rule_id": "VK-035",
+      "target_rule_id": "VK-028",
+      "relationship": "same_category",
+      "note": "Related Toilet knowledge object."
+    },
+    {
+      "source_rule_id": "VK-036",
+      "target_rule_id": "VK-028",
+      "relationship": "same_category",
+      "note": "Related Toilet knowledge object."
+    }
+  ]
+}

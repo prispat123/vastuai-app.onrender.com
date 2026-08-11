@@ -1,0 +1,161 @@
+{
+  "entrance_direction": {
+    "label": "Main entrance",
+    "weight": 1.4,
+    "scores": {"North": 9, "North-East": 10, "East": 9, "South-East": 6, "South": 5, "South-West": 3, "West": 7, "North-West": 7},
+    "preferred": ["North-East", "North", "East"],
+    "avoid": ["South-West"],
+    "rationale": "The main entrance is traditionally treated as the primary point through which energy enters the home.",
+    "remedies": {
+      "structural": "Where practical, consult a qualified architect before changing the entrance position or door opening.",
+      "non_structural": "Keep the entrance bright, uncluttered, clearly marked and in good repair."
+    }
+  },
+  "kitchen_direction": {
+    "label": "Kitchen",
+    "weight": 1.3,
+    "scores": {"North": 5, "North-East": 3, "East": 7, "South-East": 10, "South": 7, "South-West": 5, "West": 6, "North-West": 8},
+    "preferred": ["South-East", "North-West"],
+    "avoid": ["North-East"],
+    "rationale": "Traditional Vastu associates the kitchen with the fire element and favours the South-East sector.",
+    "remedies": {
+      "structural": "During renovation, consider locating the primary cooking zone toward South-East where feasible.",
+      "non_structural": "Keep the cooking area clean and well ventilated; place the hob so the cook can preferably face East when practical."
+    }
+  },
+  "master_bedroom_direction": {
+    "label": "Master bedroom",
+    "weight": 1.2,
+    "scores": {"North": 6, "North-East": 4, "East": 6, "South-East": 5, "South": 8, "South-West": 10, "West": 8, "North-West": 7},
+    "preferred": ["South-West", "South", "West"],
+    "avoid": ["North-East"],
+    "rationale": "The South-West is traditionally associated with stability and is often preferred for the primary bedroom.",
+    "remedies": {
+      "structural": "If redesigning, reserve a stable South-West room for the primary occupants where possible.",
+      "non_structural": "Use a solid headboard, reduce clutter and avoid placing the bed directly under a beam."
+    }
+  },
+  "toilet_direction": {
+    "label": "Toilet / bathroom",
+    "weight": 1.2,
+    "scores": {"North": 4, "North-East": 2, "East": 5, "South-East": 6, "South": 6, "South-West": 5, "West": 8, "North-West": 9},
+    "preferred": ["North-West", "West"],
+    "avoid": ["North-East", "Centre"],
+    "rationale": "Traditional guidance generally avoids toilets in the North-East and central zone.",
+    "remedies": {
+      "structural": "For major renovations, obtain professional plumbing and structural advice before relocation.",
+      "non_structural": "Maintain strong ventilation, fix leaks promptly, keep the door closed and the space dry."
+    }
+  },
+  "pooja_direction": {
+    "label": "Pooja / meditation room",
+    "weight": 1.0,
+    "scores": {"North": 8, "North-East": 10, "East": 9, "South-East": 4, "South": 4, "South-West": 3, "West": 6, "North-West": 6, "Centre": 7},
+    "preferred": ["North-East", "East", "North"],
+    "avoid": ["South-West"],
+    "rationale": "The North-East is traditionally considered suitable for prayer, contemplation and quiet activity.",
+    "remedies": {
+      "structural": "When planning interiors, reserve a calm North-East or East niche where practical.",
+      "non_structural": "Keep the area clean, quiet and well lit; avoid storing unrelated heavy items there."
+    }
+  },
+  "living_room_direction": {
+    "label": "Living room",
+    "weight": 0.9,
+    "scores": {"North": 9, "North-East": 9, "East": 9, "South-East": 6, "South": 6, "South-West": 5, "West": 7, "North-West": 8, "Centre": 7},
+    "preferred": ["North", "North-East", "East", "North-West"],
+    "avoid": [],
+    "rationale": "Lighter northern and eastern sectors are traditionally preferred for active shared spaces.",
+    "remedies": {
+      "structural": "During redesign, improve natural light and circulation in the shared living zone.",
+      "non_structural": "Keep the centre open, use balanced seating and reduce visual clutter."
+    }
+  },
+  "balcony_direction": {
+    "label": "Balcony / open space",
+    "weight": 0.8,
+    "scores": {"North": 9, "North-East": 10, "East": 9, "South-East": 6, "South": 5, "South-West": 3, "West": 6, "North-West": 7},
+    "preferred": ["North-East", "North", "East"],
+    "avoid": ["South-West"],
+    "rationale": "Open spaces toward North and East are traditionally associated with lightness and openness.",
+    "remedies": {
+      "structural": "Avoid structural changes without engineering and society approvals.",
+      "non_structural": "Keep the balcony open, bright and free from excessive heavy storage."
+    }
+  },
+  "staircase_direction": {
+    "label": "Staircase",
+    "weight": 1.0,
+    "scores": {"North": 5, "North-East": 3, "East": 5, "South-East": 7, "South": 8, "South-West": 9, "West": 8, "North-West": 7, "Centre": 2},
+    "preferred": ["South-West", "South", "West"],
+    "avoid": ["North-East", "Centre"],
+    "rationale": "Heavier elements such as staircases are traditionally preferred in southern or western sectors.",
+    "remedies": {
+      "structural": "Relocation should only be considered with professional structural review.",
+      "non_structural": "Keep the staircase well maintained, illuminated and free from storage obstruction."
+    }
+  },
+  "children_bedroom_direction": {
+    "label": "Children's bedroom",
+    "weight": 0.8,
+    "scores": {"North": 8, "North-East": 7, "East": 9, "South-East": 6, "South": 7, "South-West": 5, "West": 7, "North-West": 8},
+    "preferred": ["East", "North", "North-West"],
+    "avoid": ["South-West"],
+    "rationale": "Eastern and northern sectors are traditionally associated with learning and activity.",
+    "remedies": {"structural": "Choose an East or North room during future reallocation where possible.", "non_structural": "Place the study desk so the child can face East or North and maintain good daylight."}
+  },
+  "guest_bedroom_direction": {
+    "label": "Guest bedroom",
+    "weight": 0.7,
+    "scores": {"North": 7, "North-East": 5, "East": 7, "South-East": 6, "South": 7, "South-West": 5, "West": 7, "North-West": 9},
+    "preferred": ["North-West", "West", "North"],
+    "avoid": ["South-West"],
+    "rationale": "The North-West is traditionally preferred for temporary occupants and guests.",
+    "remedies": {"structural": "Reassign rooms rather than alter structure when possible.", "non_structural": "Keep the guest room welcoming, airy and minimally cluttered."}
+  },
+  "dining_direction": {
+    "label": "Dining area",
+    "weight": 0.7,
+    "scores": {"North": 7, "North-East": 6, "East": 8, "South-East": 8, "South": 7, "South-West": 5, "West": 9, "North-West": 7, "Centre": 5},
+    "preferred": ["West", "East", "South-East"],
+    "avoid": ["Centre"],
+    "rationale": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+    "remedies": {"structural": "Keep circulation between kitchen and dining practical during redesign.", "non_structural": "Use a clean, well-lit dining area and avoid placing it in a congested central passage."}
+  },
+  "brahmasthan_direction": {
+    "label": "Brahmasthan / central zone",
+    "weight": 1.3,
+    "scores": {"Centre": 10, "North": 7, "North-East": 7, "East": 7, "South-East": 6, "South": 6, "South-West": 5, "West": 6, "North-West": 6},
+    "preferred": ["Centre"],
+    "avoid": [],
+    "rationale": "The central zone is traditionally expected to remain relatively open, light and unobstructed.",
+    "remedies": {"structural": "Consult an architect before removing walls or structural elements.", "non_structural": "Reduce heavy storage and visual congestion in the geometric centre of the property."}
+  },
+  "underground_tank_direction": {
+    "label": "Underground water tank / borewell",
+    "weight": 1.0,
+    "scores": {"North": 8, "North-East": 10, "East": 8, "South-East": 4, "South": 3, "South-West": 2, "West": 5, "North-West": 6},
+    "preferred": ["North-East", "North", "East"],
+    "avoid": ["South-West", "South"],
+    "rationale": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+    "remedies": {"structural": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.", "non_structural": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues."}
+  },
+  "overhead_tank_direction": {
+    "label": "Overhead water tank",
+    "weight": 1.0,
+    "scores": {"North": 4, "North-East": 2, "East": 4, "South-East": 6, "South": 8, "South-West": 10, "West": 8, "North-West": 6},
+    "preferred": ["South-West", "West", "South"],
+    "avoid": ["North-East"],
+    "rationale": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+    "remedies": {"structural": "Relocation or load changes require structural-engineering approval.", "non_structural": "Prevent leakage and ensure the supporting structure is professionally inspected."}
+  },
+  "parking_direction": {
+    "label": "Parking",
+    "weight": 0.5,
+    "scores": {"North": 8, "North-East": 7, "East": 8, "South-East": 6, "South": 6, "South-West": 5, "West": 7, "North-West": 9},
+    "preferred": ["North-West", "North", "East"],
+    "avoid": [],
+    "rationale": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+    "remedies": {"structural": "Follow local access, fire and parking regulations before altering the bay.", "non_structural": "Keep access unobstructed and avoid long-term clutter around the vehicle."}
+  }
+}

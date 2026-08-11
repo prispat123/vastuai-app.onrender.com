@@ -1,0 +1,249 @@
+{
+  "category": "Living Room",
+  "rules": [
+    {
+      "rule_id": "VK-046",
+      "title": "Living Room in North",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "North",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-LIV-001"
+      ],
+      "tags": [
+        "living_room",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-047",
+      "title": "Living Room in North-East",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "North-East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-LIV-001"
+      ],
+      "tags": [
+        "living_room",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-048",
+      "title": "Living Room in East",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "East",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-LIV-001"
+      ],
+      "tags": [
+        "living_room",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-049",
+      "title": "Living Room in South-East",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "living_room",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-050",
+      "title": "Living Room in South",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "South",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "living_room",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-051",
+      "title": "Living Room in South-West",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -2,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-LIV-001"
+      ],
+      "tags": [
+        "living_room",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-052",
+      "title": "Living Room in West",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "living_room",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-053",
+      "title": "Living Room in North-West",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "living_room",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-054",
+      "title": "Living Room in Centre",
+      "category": "Living Room",
+      "field": "living_room_direction",
+      "direction": "Centre",
+      "polarity": "negative",
+      "score_delta": -2,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East living zones are often preferred.",
+      "practical_impact": "Influences circulation and openness guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-LIV-001"
+      ],
+      "tags": [
+        "living_room",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

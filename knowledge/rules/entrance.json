@@ -1,0 +1,254 @@
+{
+  "category": "Entrance",
+  "rules": [
+    {
+      "rule_id": "VK-001",
+      "title": "Entrance in North",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "North",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-ENT-001"
+      ],
+      "tags": [
+        "entrance",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-002",
+      "title": "Entrance in North-East",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "North-East",
+      "polarity": "positive",
+      "score_delta": 5,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-ENT-001"
+      ],
+      "tags": [
+        "entrance",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-003",
+      "title": "Entrance in East",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-ENT-001"
+      ],
+      "tags": [
+        "entrance",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-004",
+      "title": "Entrance in South-East",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "entrance",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-005",
+      "title": "Entrance in South",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "South",
+      "polarity": "negative",
+      "score_delta": -2,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-ENT-002",
+        "REC-ENT-001"
+      ],
+      "tags": [
+        "entrance",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-006",
+      "title": "Entrance in South-West",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-ENT-002",
+        "REC-ENT-001"
+      ],
+      "tags": [
+        "entrance",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-007",
+      "title": "Entrance in West",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "entrance",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-008",
+      "title": "Entrance in North-West",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "entrance",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-009",
+      "title": "Entrance in Centre",
+      "category": "Entrance",
+      "field": "entrance_direction",
+      "direction": "Centre",
+      "polarity": "negative",
+      "score_delta": -6,
+      "severity": "Critical",
+      "knowledge_confidence": 0.85,
+      "explanation": "North, East and North-East entrances are commonly preferred.",
+      "practical_impact": "Entrance placement influences first-priority design review.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-ENT-002",
+        "REC-ENT-001"
+      ],
+      "tags": [
+        "entrance",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

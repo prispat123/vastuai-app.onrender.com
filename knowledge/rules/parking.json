@@ -1,0 +1,252 @@
+{
+  "rules": [
+    {
+      "rule_id": "VK-123",
+      "title": "Parking in North",
+      "category": "Parking",
+      "field": "parking_direction",
+      "direction": "North",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+      "practical_impact": "Provides traceable Knowledge coverage for parking placement.",
+      "architectural_note": "Follow local access, fire and parking regulations before altering the bay.",
+      "existing_home_note": "Keep access unobstructed and avoid long-term clutter around the vehicle.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "parking",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-124",
+      "title": "Parking in North-East",
+      "category": "Parking",
+      "field": "parking_direction",
+      "direction": "North-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+      "practical_impact": "Provides traceable Knowledge coverage for parking placement.",
+      "architectural_note": "Follow local access, fire and parking regulations before altering the bay.",
+      "existing_home_note": "Keep access unobstructed and avoid long-term clutter around the vehicle.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "parking",
+        "north-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-125",
+      "title": "Parking in East",
+      "category": "Parking",
+      "field": "parking_direction",
+      "direction": "East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+      "practical_impact": "Provides traceable Knowledge coverage for parking placement.",
+      "architectural_note": "Follow local access, fire and parking regulations before altering the bay.",
+      "existing_home_note": "Keep access unobstructed and avoid long-term clutter around the vehicle.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "parking",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-126",
+      "title": "Parking in South-East",
+      "category": "Parking",
+      "field": "parking_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+      "practical_impact": "Provides traceable Knowledge coverage for parking placement.",
+      "architectural_note": "Follow local access, fire and parking regulations before altering the bay.",
+      "existing_home_note": "Keep access unobstructed and avoid long-term clutter around the vehicle.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "parking",
+        "south-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-127",
+      "title": "Parking in South",
+      "category": "Parking",
+      "field": "parking_direction",
+      "direction": "South",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+      "practical_impact": "Provides traceable Knowledge coverage for parking placement.",
+      "architectural_note": "Follow local access, fire and parking regulations before altering the bay.",
+      "existing_home_note": "Keep access unobstructed and avoid long-term clutter around the vehicle.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "parking",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-128",
+      "title": "Parking in South-West",
+      "category": "Parking",
+      "field": "parking_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+      "practical_impact": "Provides traceable Knowledge coverage for parking placement.",
+      "architectural_note": "Follow local access, fire and parking regulations before altering the bay.",
+      "existing_home_note": "Keep access unobstructed and avoid long-term clutter around the vehicle.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "parking",
+        "south-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-129",
+      "title": "Parking in West",
+      "category": "Parking",
+      "field": "parking_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+      "practical_impact": "Provides traceable Knowledge coverage for parking placement.",
+      "architectural_note": "Follow local access, fire and parking regulations before altering the bay.",
+      "existing_home_note": "Keep access unobstructed and avoid long-term clutter around the vehicle.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "parking",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-130",
+      "title": "Parking in North-West",
+      "category": "Parking",
+      "field": "parking_direction",
+      "direction": "North-West",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-West and northern sectors are traditionally considered practical for vehicle movement.",
+      "practical_impact": "Provides traceable Knowledge coverage for parking placement.",
+      "architectural_note": "Follow local access, fire and parking regulations before altering the bay.",
+      "existing_home_note": "Keep access unobstructed and avoid long-term clutter around the vehicle.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "parking",
+        "north-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    }
+  ]
+}

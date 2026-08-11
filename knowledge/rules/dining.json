@@ -1,0 +1,283 @@
+{
+  "rules": [
+    {
+      "rule_id": "VK-098",
+      "title": "Dining area in North",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "North",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-099",
+      "title": "Dining area in North-East",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "North-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "north-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-100",
+      "title": "Dining area in East",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-101",
+      "title": "Dining area in South-East",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "South-East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "south-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-102",
+      "title": "Dining area in South",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "South",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-103",
+      "title": "Dining area in South-West",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "south-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-104",
+      "title": "Dining area in West",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "West",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-105",
+      "title": "Dining area in North-West",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "north-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-106",
+      "title": "Dining area in Centre",
+      "category": "Dining",
+      "field": "dining_direction",
+      "direction": "Centre",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "The dining area is traditionally preferred near the kitchen while keeping the centre unobstructed.",
+      "practical_impact": "Provides traceable Knowledge coverage for dining area placement.",
+      "architectural_note": "Keep circulation between kitchen and dining practical during redesign.",
+      "existing_home_note": "Use a clean, well-lit dining area and avoid placing it in a congested central passage.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "dining",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    }
+  ]
+}

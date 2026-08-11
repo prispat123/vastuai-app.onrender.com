@@ -1,0 +1,168 @@
+{
+  "recommendations": [
+    {
+      "recommendation_id": "REC-ENT-001",
+      "title": "Maintain a clear and well-lit entrance",
+      "stage": "Existing",
+      "effort": "Easy",
+      "category": "Operational",
+      "actions": [
+        "Keep the entrance unobstructed and adequately lit.",
+        "Avoid heavy storage immediately beside the entrance."
+      ],
+      "limitations": [
+        "Belief-based Vastu guidance; not a structural assessment."
+      ]
+    },
+    {
+      "recommendation_id": "REC-ENT-002",
+      "title": "Review entrance location during planning",
+      "stage": "Planning",
+      "effort": "Major",
+      "category": "Architectural",
+      "actions": [
+        "Evaluate whether the entrance can move toward a preferred zone.",
+        "Coordinate changes with circulation and safety requirements."
+      ],
+      "limitations": [
+        "Entrance relocation requires architect and engineer review."
+      ]
+    },
+    {
+      "recommendation_id": "REC-KIT-001",
+      "title": "Prefer South-East kitchen placement",
+      "stage": "Planning",
+      "effort": "Major",
+      "category": "Architectural",
+      "actions": [
+        "Prefer South-East where feasible.",
+        "Consider North-West as a secondary option."
+      ],
+      "limitations": [
+        "Fire safety, ventilation and services take precedence."
+      ]
+    },
+    {
+      "recommendation_id": "REC-KIT-002",
+      "title": "Optimise the existing kitchen internally",
+      "stage": "Existing",
+      "effort": "Moderate",
+      "category": "Interior",
+      "actions": [
+        "Review stove, sink and working-direction placement.",
+        "Avoid unsafe service relocation."
+      ],
+      "limitations": [
+        "Internal optimisation does not change room location."
+      ]
+    },
+    {
+      "recommendation_id": "REC-BED-001",
+      "title": "Prioritise South-West for the master bedroom",
+      "stage": "Planning",
+      "effort": "Major",
+      "category": "Architectural",
+      "actions": [
+        "Allocate the South-West bedroom as the master bedroom where feasible."
+      ],
+      "limitations": [
+        "Accessibility, privacy and family needs remain important."
+      ]
+    },
+    {
+      "recommendation_id": "REC-TOI-001",
+      "title": "Review toilet placement",
+      "stage": "Planning",
+      "effort": "Major",
+      "category": "Architectural",
+      "actions": [
+        "Avoid North-East and central zones where feasible.",
+        "Coordinate changes with plumbing and waterproofing."
+      ],
+      "limitations": [
+        "Sanitation and waterproofing requirements take precedence."
+      ]
+    },
+    {
+      "recommendation_id": "REC-TOI-002",
+      "title": "Improve toilet ventilation and containment",
+      "stage": "Existing",
+      "effort": "Easy",
+      "category": "Operational",
+      "actions": [
+        "Maintain ventilation, dryness and cleanliness.",
+        "Repair leakage promptly."
+      ],
+      "limitations": [
+        "These actions do not change toilet location."
+      ]
+    },
+    {
+      "recommendation_id": "REC-POO-001",
+      "title": "Prefer North-East for prayer or meditation",
+      "stage": "Both",
+      "effort": "Moderate",
+      "category": "Interior",
+      "actions": [
+        "Use a calm, clean and visually light area.",
+        "Prefer North-East or East where practical."
+      ],
+      "limitations": [
+        "Personal faith and household practice should guide use."
+      ]
+    },
+    {
+      "recommendation_id": "REC-BRA-001",
+      "title": "Keep the central zone light and open",
+      "stage": "Both",
+      "effort": "Moderate",
+      "category": "Interior",
+      "actions": [
+        "Avoid heavy permanent storage in the central zone.",
+        "Preserve circulation and visual openness."
+      ],
+      "limitations": [
+        "Do not alter structural columns or essential services."
+      ]
+    },
+    {
+      "recommendation_id": "REC-STA-001",
+      "title": "Review staircase mass and circulation",
+      "stage": "Both",
+      "effort": "Major",
+      "category": "Architectural",
+      "actions": [
+        "Avoid heavy staircase mass in North-East or Centre where feasible."
+      ],
+      "limitations": [
+        "Structural and fire-safety design take precedence."
+      ]
+    },
+    {
+      "recommendation_id": "REC-BAL-001",
+      "title": "Use favourable balcony zones for openness",
+      "stage": "Both",
+      "effort": "Moderate",
+      "category": "Architectural",
+      "actions": [
+        "Prefer North, East or North-East openings where practical."
+      ],
+      "limitations": [
+        "Facade, climate and safety requirements remain primary."
+      ]
+    },
+    {
+      "recommendation_id": "REC-LIV-001",
+      "title": "Support an open and accessible living area",
+      "stage": "Both",
+      "effort": "Easy",
+      "category": "Interior",
+      "actions": [
+        "Keep circulation clear and maintain balanced natural light."
+      ],
+      "limitations": [
+        "General Vastu-oriented interior guidance."
+      ]
+    }
+  ]
+}

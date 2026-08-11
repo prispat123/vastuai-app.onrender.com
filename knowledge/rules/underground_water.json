@@ -1,0 +1,252 @@
+{
+  "rules": [
+    {
+      "rule_id": "VK-107",
+      "title": "Underground water tank / borewell in North",
+      "category": "Underground Water",
+      "field": "underground_tank_direction",
+      "direction": "North",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+      "practical_impact": "Provides traceable Knowledge coverage for underground water tank / borewell placement.",
+      "architectural_note": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.",
+      "existing_home_note": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "underground_water",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-108",
+      "title": "Underground water tank / borewell in North-East",
+      "category": "Underground Water",
+      "field": "underground_tank_direction",
+      "direction": "North-East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+      "practical_impact": "Provides traceable Knowledge coverage for underground water tank / borewell placement.",
+      "architectural_note": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.",
+      "existing_home_note": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "underground_water",
+        "north-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-109",
+      "title": "Underground water tank / borewell in East",
+      "category": "Underground Water",
+      "field": "underground_tank_direction",
+      "direction": "East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+      "practical_impact": "Provides traceable Knowledge coverage for underground water tank / borewell placement.",
+      "architectural_note": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.",
+      "existing_home_note": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "underground_water",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-110",
+      "title": "Underground water tank / borewell in South-East",
+      "category": "Underground Water",
+      "field": "underground_tank_direction",
+      "direction": "South-East",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+      "practical_impact": "Provides traceable Knowledge coverage for underground water tank / borewell placement.",
+      "architectural_note": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.",
+      "existing_home_note": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "underground_water",
+        "south-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-111",
+      "title": "Underground water tank / borewell in South",
+      "category": "Underground Water",
+      "field": "underground_tank_direction",
+      "direction": "South",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+      "practical_impact": "Provides traceable Knowledge coverage for underground water tank / borewell placement.",
+      "architectural_note": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.",
+      "existing_home_note": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "underground_water",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-112",
+      "title": "Underground water tank / borewell in South-West",
+      "category": "Underground Water",
+      "field": "underground_tank_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+      "practical_impact": "Provides traceable Knowledge coverage for underground water tank / borewell placement.",
+      "architectural_note": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.",
+      "existing_home_note": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "underground_water",
+        "south-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-113",
+      "title": "Underground water tank / borewell in West",
+      "category": "Underground Water",
+      "field": "underground_tank_direction",
+      "direction": "West",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+      "practical_impact": "Provides traceable Knowledge coverage for underground water tank / borewell placement.",
+      "architectural_note": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.",
+      "existing_home_note": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "underground_water",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-114",
+      "title": "Underground water tank / borewell in North-West",
+      "category": "Underground Water",
+      "field": "underground_tank_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "Traditional Vastu generally favours underground water sources in the North or North-East.",
+      "practical_impact": "Provides traceable Knowledge coverage for underground water tank / borewell placement.",
+      "architectural_note": "Any tank relocation requires qualified civil, plumbing and waterproofing advice.",
+      "existing_home_note": "Keep the tank hygienic, sealed and regularly maintained; do not rely on symbolic remedies for safety issues.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "underground_water",
+        "north-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    }
+  ]
+}

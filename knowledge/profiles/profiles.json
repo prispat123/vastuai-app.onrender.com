@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "classical": {
+      "name": "Classical Vastu",
+      "description": "Higher weighting for traditional directional preferences.",
+      "disclaimer": "Interpretations can vary across traditional schools."
+    },
+    "practical": {
+      "name": "Modern Practical Vastu",
+      "description": "Balanced guidance for existing properties.",
+      "disclaimer": "Safety, legal and structural requirements take priority."
+    },
+    "builder": {
+      "name": "Builder Design Review",
+      "description": "Planning-stage profile with stronger design emphasis.",
+      "disclaimer": "Architect and engineer validation is required."
+    },
+    "consultant": {
+      "name": "Consultant Profile",
+      "description": "Neutral base profile for consultant customisation.",
+      "disclaimer": "Professional judgement remains essential."
+    }
+  }
+}

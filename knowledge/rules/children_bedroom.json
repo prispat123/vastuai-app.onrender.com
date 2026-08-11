@@ -1,0 +1,252 @@
+{
+  "rules": [
+    {
+      "rule_id": "VK-082",
+      "title": "Children's bedroom in North",
+      "category": "Children Bedroom",
+      "field": "children_bedroom_direction",
+      "direction": "North",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Eastern and northern sectors are traditionally associated with learning and activity.",
+      "practical_impact": "Provides traceable Knowledge coverage for children's bedroom placement.",
+      "architectural_note": "Choose an East or North room during future reallocation where possible.",
+      "existing_home_note": "Place the study desk so the child can face East or North and maintain good daylight.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "children_bedroom",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-083",
+      "title": "Children's bedroom in North-East",
+      "category": "Children Bedroom",
+      "field": "children_bedroom_direction",
+      "direction": "North-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "Eastern and northern sectors are traditionally associated with learning and activity.",
+      "practical_impact": "Provides traceable Knowledge coverage for children's bedroom placement.",
+      "architectural_note": "Choose an East or North room during future reallocation where possible.",
+      "existing_home_note": "Place the study desk so the child can face East or North and maintain good daylight.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "children_bedroom",
+        "north-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-084",
+      "title": "Children's bedroom in East",
+      "category": "Children Bedroom",
+      "field": "children_bedroom_direction",
+      "direction": "East",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Eastern and northern sectors are traditionally associated with learning and activity.",
+      "practical_impact": "Provides traceable Knowledge coverage for children's bedroom placement.",
+      "architectural_note": "Choose an East or North room during future reallocation where possible.",
+      "existing_home_note": "Place the study desk so the child can face East or North and maintain good daylight.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "children_bedroom",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-085",
+      "title": "Children's bedroom in South-East",
+      "category": "Children Bedroom",
+      "field": "children_bedroom_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "Eastern and northern sectors are traditionally associated with learning and activity.",
+      "practical_impact": "Provides traceable Knowledge coverage for children's bedroom placement.",
+      "architectural_note": "Choose an East or North room during future reallocation where possible.",
+      "existing_home_note": "Place the study desk so the child can face East or North and maintain good daylight.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "children_bedroom",
+        "south-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-086",
+      "title": "Children's bedroom in South",
+      "category": "Children Bedroom",
+      "field": "children_bedroom_direction",
+      "direction": "South",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "Eastern and northern sectors are traditionally associated with learning and activity.",
+      "practical_impact": "Provides traceable Knowledge coverage for children's bedroom placement.",
+      "architectural_note": "Choose an East or North room during future reallocation where possible.",
+      "existing_home_note": "Place the study desk so the child can face East or North and maintain good daylight.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "children_bedroom",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-087",
+      "title": "Children's bedroom in South-West",
+      "category": "Children Bedroom",
+      "field": "children_bedroom_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "Eastern and northern sectors are traditionally associated with learning and activity.",
+      "practical_impact": "Provides traceable Knowledge coverage for children's bedroom placement.",
+      "architectural_note": "Choose an East or North room during future reallocation where possible.",
+      "existing_home_note": "Place the study desk so the child can face East or North and maintain good daylight.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "children_bedroom",
+        "south-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-088",
+      "title": "Children's bedroom in West",
+      "category": "Children Bedroom",
+      "field": "children_bedroom_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "Eastern and northern sectors are traditionally associated with learning and activity.",
+      "practical_impact": "Provides traceable Knowledge coverage for children's bedroom placement.",
+      "architectural_note": "Choose an East or North room during future reallocation where possible.",
+      "existing_home_note": "Place the study desk so the child can face East or North and maintain good daylight.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "children_bedroom",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-089",
+      "title": "Children's bedroom in North-West",
+      "category": "Children Bedroom",
+      "field": "children_bedroom_direction",
+      "direction": "North-West",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Eastern and northern sectors are traditionally associated with learning and activity.",
+      "practical_impact": "Provides traceable Knowledge coverage for children's bedroom placement.",
+      "architectural_note": "Choose an East or North room during future reallocation where possible.",
+      "existing_home_note": "Place the study desk so the child can face East or North and maintain good daylight.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "children_bedroom",
+        "north-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    }
+  ]
+}

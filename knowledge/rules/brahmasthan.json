@@ -1,0 +1,241 @@
+{
+  "category": "Brahmasthan",
+  "rules": [
+    {
+      "rule_id": "VK-073",
+      "title": "Brahmasthan in North",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "North",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "brahmasthan",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-074",
+      "title": "Brahmasthan in North-East",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "North-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "brahmasthan",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-075",
+      "title": "Brahmasthan in East",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "brahmasthan",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-076",
+      "title": "Brahmasthan in South-East",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "brahmasthan",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-077",
+      "title": "Brahmasthan in South",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "South",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "brahmasthan",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-078",
+      "title": "Brahmasthan in South-West",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "South-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "brahmasthan",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-079",
+      "title": "Brahmasthan in West",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "brahmasthan",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-080",
+      "title": "Brahmasthan in North-West",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "brahmasthan",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-081",
+      "title": "Brahmasthan in Centre",
+      "category": "Brahmasthan",
+      "field": "brahmasthan_direction",
+      "direction": "Centre",
+      "polarity": "positive",
+      "score_delta": 5,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "The central zone is expected to remain comparatively open.",
+      "practical_impact": "Interpreted through room use, circulation and structure.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BRA-001"
+      ],
+      "tags": [
+        "brahmasthan",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

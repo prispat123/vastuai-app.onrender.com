@@ -1,0 +1,252 @@
+{
+  "rules": [
+    {
+      "rule_id": "VK-090",
+      "title": "Guest bedroom in North",
+      "category": "Guest Bedroom",
+      "field": "guest_bedroom_direction",
+      "direction": "North",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The North-West is traditionally preferred for temporary occupants and guests.",
+      "practical_impact": "Provides traceable Knowledge coverage for guest bedroom placement.",
+      "architectural_note": "Reassign rooms rather than alter structure when possible.",
+      "existing_home_note": "Keep the guest room welcoming, airy and minimally cluttered.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "guest_bedroom",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-091",
+      "title": "Guest bedroom in North-East",
+      "category": "Guest Bedroom",
+      "field": "guest_bedroom_direction",
+      "direction": "North-East",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "The North-West is traditionally preferred for temporary occupants and guests.",
+      "practical_impact": "Provides traceable Knowledge coverage for guest bedroom placement.",
+      "architectural_note": "Reassign rooms rather than alter structure when possible.",
+      "existing_home_note": "Keep the guest room welcoming, airy and minimally cluttered.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "guest_bedroom",
+        "north-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-092",
+      "title": "Guest bedroom in East",
+      "category": "Guest Bedroom",
+      "field": "guest_bedroom_direction",
+      "direction": "East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The North-West is traditionally preferred for temporary occupants and guests.",
+      "practical_impact": "Provides traceable Knowledge coverage for guest bedroom placement.",
+      "architectural_note": "Reassign rooms rather than alter structure when possible.",
+      "existing_home_note": "Keep the guest room welcoming, airy and minimally cluttered.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "guest_bedroom",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-093",
+      "title": "Guest bedroom in South-East",
+      "category": "Guest Bedroom",
+      "field": "guest_bedroom_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The North-West is traditionally preferred for temporary occupants and guests.",
+      "practical_impact": "Provides traceable Knowledge coverage for guest bedroom placement.",
+      "architectural_note": "Reassign rooms rather than alter structure when possible.",
+      "existing_home_note": "Keep the guest room welcoming, airy and minimally cluttered.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "guest_bedroom",
+        "south-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-094",
+      "title": "Guest bedroom in South",
+      "category": "Guest Bedroom",
+      "field": "guest_bedroom_direction",
+      "direction": "South",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The North-West is traditionally preferred for temporary occupants and guests.",
+      "practical_impact": "Provides traceable Knowledge coverage for guest bedroom placement.",
+      "architectural_note": "Reassign rooms rather than alter structure when possible.",
+      "existing_home_note": "Keep the guest room welcoming, airy and minimally cluttered.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "guest_bedroom",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-095",
+      "title": "Guest bedroom in South-West",
+      "category": "Guest Bedroom",
+      "field": "guest_bedroom_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "The North-West is traditionally preferred for temporary occupants and guests.",
+      "practical_impact": "Provides traceable Knowledge coverage for guest bedroom placement.",
+      "architectural_note": "Reassign rooms rather than alter structure when possible.",
+      "existing_home_note": "Keep the guest room welcoming, airy and minimally cluttered.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "guest_bedroom",
+        "south-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-096",
+      "title": "Guest bedroom in West",
+      "category": "Guest Bedroom",
+      "field": "guest_bedroom_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "The North-West is traditionally preferred for temporary occupants and guests.",
+      "practical_impact": "Provides traceable Knowledge coverage for guest bedroom placement.",
+      "architectural_note": "Reassign rooms rather than alter structure when possible.",
+      "existing_home_note": "Keep the guest room welcoming, airy and minimally cluttered.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "guest_bedroom",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-097",
+      "title": "Guest bedroom in North-West",
+      "category": "Guest Bedroom",
+      "field": "guest_bedroom_direction",
+      "direction": "North-West",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "The North-West is traditionally preferred for temporary occupants and guests.",
+      "practical_impact": "Provides traceable Knowledge coverage for guest bedroom placement.",
+      "architectural_note": "Reassign rooms rather than alter structure when possible.",
+      "existing_home_note": "Keep the guest room welcoming, airy and minimally cluttered.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "guest_bedroom",
+        "north-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    }
+  ]
+}

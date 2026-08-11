@@ -1,0 +1,232 @@
+{
+  "compatibility": {
+    "1": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "2": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "3": [
+      3,
+      6,
+      9
+    ],
+    "4": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "5": [
+      5,
+      6
+    ],
+    "6": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "7": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "8": [
+      8
+    ],
+    "9": [
+      3,
+      6,
+      9
+    ]
+  },
+  "number_profiles": {
+    "1": {
+      "planet": "Sun",
+      "keywords": [
+        "independence",
+        "leadership",
+        "initiative"
+      ],
+      "supportive_directions": [
+        "East",
+        "North-East"
+      ],
+      "supportive_colours": [
+        "gold",
+        "orange",
+        "warm white"
+      ],
+      "summary": "Traditionally associated with initiative, identity and leadership."
+    },
+    "2": {
+      "planet": "Moon",
+      "keywords": [
+        "cooperation",
+        "sensitivity",
+        "balance"
+      ],
+      "supportive_directions": [
+        "North-West",
+        "North"
+      ],
+      "supportive_colours": [
+        "white",
+        "cream",
+        "silver"
+      ],
+      "summary": "Traditionally associated with receptivity, partnership and emotional balance."
+    },
+    "3": {
+      "planet": "Jupiter",
+      "keywords": [
+        "growth",
+        "learning",
+        "expression"
+      ],
+      "supportive_directions": [
+        "North-East",
+        "North"
+      ],
+      "supportive_colours": [
+        "yellow",
+        "gold",
+        "light purple"
+      ],
+      "summary": "Traditionally associated with learning, optimism and expansion."
+    },
+    "4": {
+      "planet": "Rahu",
+      "keywords": [
+        "structure",
+        "unconventional thinking",
+        "discipline"
+      ],
+      "supportive_directions": [
+        "South-West",
+        "West"
+      ],
+      "supportive_colours": [
+        "grey",
+        "blue",
+        "earth tones"
+      ],
+      "summary": "Traditionally associated with structure, persistence and unconventional pathways."
+    },
+    "5": {
+      "planet": "Mercury",
+      "keywords": [
+        "communication",
+        "adaptability",
+        "movement"
+      ],
+      "supportive_directions": [
+        "North",
+        "East"
+      ],
+      "supportive_colours": [
+        "green",
+        "turquoise",
+        "light grey"
+      ],
+      "summary": "Traditionally associated with communication, adaptability and commerce."
+    },
+    "6": {
+      "planet": "Venus",
+      "keywords": [
+        "home",
+        "comfort",
+        "relationships"
+      ],
+      "supportive_directions": [
+        "South-East",
+        "North-West"
+      ],
+      "supportive_colours": [
+        "pastel pink",
+        "cream",
+        "light blue"
+      ],
+      "summary": "Traditionally associated with harmony, beauty, responsibility and home life."
+    },
+    "7": {
+      "planet": "Ketu",
+      "keywords": [
+        "analysis",
+        "introspection",
+        "spirituality"
+      ],
+      "supportive_directions": [
+        "North-East",
+        "West"
+      ],
+      "supportive_colours": [
+        "white",
+        "sea green",
+        "violet"
+      ],
+      "summary": "Traditionally associated with reflection, analysis and spiritual enquiry."
+    },
+    "8": {
+      "planet": "Saturn",
+      "keywords": [
+        "discipline",
+        "endurance",
+        "material responsibility"
+      ],
+      "supportive_directions": [
+        "West",
+        "South-West"
+      ],
+      "supportive_colours": [
+        "navy",
+        "charcoal",
+        "deep blue"
+      ],
+      "summary": "Traditionally associated with discipline, endurance and long-term responsibility."
+    },
+    "9": {
+      "planet": "Mars",
+      "keywords": [
+        "courage",
+        "service",
+        "completion"
+      ],
+      "supportive_directions": [
+        "South",
+        "South-East"
+      ],
+      "supportive_colours": [
+        "red",
+        "coral",
+        "maroon"
+      ],
+      "summary": "Traditionally associated with courage, action, service and completion."
+    }
+  },
+  "compound_notes": {
+    "10": "Traditionally read as a turning point involving independence and renewed initiative.",
+    "11": "Often treated as an intensified intuitive or inspirational compound number.",
+    "14": "Traditionally linked with change and movement; careful planning is emphasised.",
+    "15": "Often associated with personal magnetism, comfort and persuasive ability.",
+    "16": "Traditionally interpreted as a reminder to avoid overconfidence and reassess foundations.",
+    "17": "Often regarded as a favourable compound for recognition earned through persistence.",
+    "19": "Frequently interpreted as independence supported by success after effort.",
+    "21": "Traditionally associated with advancement through cooperation and communication.",
+    "23": "Often regarded as supportive for communication, opportunity and protection.",
+    "24": "Traditionally associated with family support, responsibility and harmonious partnerships.",
+    "25": "Often linked with learning through observation, analysis and experience.",
+    "26": "Traditionally calls for care around shared responsibilities and material commitments.",
+    "27": "Often associated with service, knowledge and completion of long-term efforts.",
+    "32": "Traditionally linked with communication and influence, provided judgement remains independent.",
+    "33": "Often treated as a service-oriented master compound in modern numerology traditions."
+  }
+}

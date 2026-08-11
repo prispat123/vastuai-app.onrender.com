@@ -1,0 +1,249 @@
+{
+  "category": "Pooja",
+  "rules": [
+    {
+      "rule_id": "VK-037",
+      "title": "Pooja in North",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "North",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-POO-001"
+      ],
+      "tags": [
+        "pooja",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-038",
+      "title": "Pooja in North-East",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "North-East",
+      "polarity": "positive",
+      "score_delta": 5,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-POO-001"
+      ],
+      "tags": [
+        "pooja",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-039",
+      "title": "Pooja in East",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "East",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-POO-001"
+      ],
+      "tags": [
+        "pooja",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-040",
+      "title": "Pooja in South-East",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "pooja",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-041",
+      "title": "Pooja in South",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "South",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "pooja",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-042",
+      "title": "Pooja in South-West",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-POO-001"
+      ],
+      "tags": [
+        "pooja",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-043",
+      "title": "Pooja in West",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "pooja",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-044",
+      "title": "Pooja in North-West",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "pooja",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-045",
+      "title": "Pooja in Centre",
+      "category": "Pooja",
+      "field": "pooja_direction",
+      "direction": "Centre",
+      "polarity": "negative",
+      "score_delta": -2,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and East are commonly preferred.",
+      "practical_impact": "Relevant mainly to interior allocation and household practice.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-POO-001"
+      ],
+      "tags": [
+        "pooja",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

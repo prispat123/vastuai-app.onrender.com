@@ -1,0 +1,17 @@
+streamlit>=1.40
+python-dotenv>=1.0
+pandas>=2.2
+pytest>=8.3
+
+openai>=1.40
+
+langgraph>=0.2
+typing-extensions>=4.12
+Pillow>=10.4
+pypdfium2>=4.30
+matplotlib>=3.9
+reportlab>=4.2
+pytesseract>=0.3.13
+
+
+openpyxl>=3.1

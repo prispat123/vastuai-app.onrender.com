@@ -1,0 +1,252 @@
+{
+  "rules": [
+    {
+      "rule_id": "VK-115",
+      "title": "Overhead water tank in North",
+      "category": "Overhead Water",
+      "field": "overhead_tank_direction",
+      "direction": "North",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+      "practical_impact": "Provides traceable Knowledge coverage for overhead water tank placement.",
+      "architectural_note": "Relocation or load changes require structural-engineering approval.",
+      "existing_home_note": "Prevent leakage and ensure the supporting structure is professionally inspected.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "overhead_water",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-116",
+      "title": "Overhead water tank in North-East",
+      "category": "Overhead Water",
+      "field": "overhead_tank_direction",
+      "direction": "North-East",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+      "practical_impact": "Provides traceable Knowledge coverage for overhead water tank placement.",
+      "architectural_note": "Relocation or load changes require structural-engineering approval.",
+      "existing_home_note": "Prevent leakage and ensure the supporting structure is professionally inspected.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "overhead_water",
+        "north-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-117",
+      "title": "Overhead water tank in East",
+      "category": "Overhead Water",
+      "field": "overhead_tank_direction",
+      "direction": "East",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+      "practical_impact": "Provides traceable Knowledge coverage for overhead water tank placement.",
+      "architectural_note": "Relocation or load changes require structural-engineering approval.",
+      "existing_home_note": "Prevent leakage and ensure the supporting structure is professionally inspected.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "overhead_water",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-118",
+      "title": "Overhead water tank in South-East",
+      "category": "Overhead Water",
+      "field": "overhead_tank_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+      "practical_impact": "Provides traceable Knowledge coverage for overhead water tank placement.",
+      "architectural_note": "Relocation or load changes require structural-engineering approval.",
+      "existing_home_note": "Prevent leakage and ensure the supporting structure is professionally inspected.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "overhead_water",
+        "south-east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-119",
+      "title": "Overhead water tank in South",
+      "category": "Overhead Water",
+      "field": "overhead_tank_direction",
+      "direction": "South",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+      "practical_impact": "Provides traceable Knowledge coverage for overhead water tank placement.",
+      "architectural_note": "Relocation or load changes require structural-engineering approval.",
+      "existing_home_note": "Prevent leakage and ensure the supporting structure is professionally inspected.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "overhead_water",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-120",
+      "title": "Overhead water tank in South-West",
+      "category": "Overhead Water",
+      "field": "overhead_tank_direction",
+      "direction": "South-West",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+      "practical_impact": "Provides traceable Knowledge coverage for overhead water tank placement.",
+      "architectural_note": "Relocation or load changes require structural-engineering approval.",
+      "existing_home_note": "Prevent leakage and ensure the supporting structure is professionally inspected.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "overhead_water",
+        "south-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-121",
+      "title": "Overhead water tank in West",
+      "category": "Overhead Water",
+      "field": "overhead_tank_direction",
+      "direction": "West",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+      "practical_impact": "Provides traceable Knowledge coverage for overhead water tank placement.",
+      "architectural_note": "Relocation or load changes require structural-engineering approval.",
+      "existing_home_note": "Prevent leakage and ensure the supporting structure is professionally inspected.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "overhead_water",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    },
+    {
+      "rule_id": "VK-122",
+      "title": "Overhead water tank in North-West",
+      "category": "Overhead Water",
+      "field": "overhead_tank_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.75,
+      "explanation": "A heavy overhead tank is traditionally preferred in southern or western sectors.",
+      "practical_impact": "Provides traceable Knowledge coverage for overhead water tank placement.",
+      "architectural_note": "Relocation or load changes require structural-engineering approval.",
+      "existing_home_note": "Prevent leakage and ensure the supporting structure is professionally inspected.",
+      "builder_note": "",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations and schools may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "overhead_water",
+        "north-west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      },
+      "version": "1.1.0",
+      "active": true
+    }
+  ]
+}

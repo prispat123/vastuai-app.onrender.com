@@ -1,0 +1,249 @@
+{
+  "category": "Staircase",
+  "rules": [
+    {
+      "rule_id": "VK-064",
+      "title": "Staircase in North",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "North",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "staircase",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-065",
+      "title": "Staircase in North-East",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "North-East",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-STA-001"
+      ],
+      "tags": [
+        "staircase",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-066",
+      "title": "Staircase in East",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "staircase",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-067",
+      "title": "Staircase in South-East",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "staircase",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-068",
+      "title": "Staircase in South",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "South",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-STA-001"
+      ],
+      "tags": [
+        "staircase",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-069",
+      "title": "Staircase in South-West",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "South-West",
+      "polarity": "positive",
+      "score_delta": 4,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-STA-001"
+      ],
+      "tags": [
+        "staircase",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-070",
+      "title": "Staircase in West",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "West",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-STA-001"
+      ],
+      "tags": [
+        "staircase",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-071",
+      "title": "Staircase in North-West",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "staircase",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-072",
+      "title": "Staircase in Centre",
+      "category": "Staircase",
+      "field": "staircase_direction",
+      "direction": "Centre",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "Heavier staircase mass is often preferred South or West.",
+      "practical_impact": "Relevant to massing, structure and circulation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-STA-001"
+      ],
+      "tags": [
+        "staircase",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

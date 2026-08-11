@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#78B58F"
+
+[server]
+enableStaticServing = true
+maxUploadSize = 200

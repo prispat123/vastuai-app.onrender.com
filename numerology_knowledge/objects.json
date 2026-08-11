@@ -1,0 +1,852 @@
+{
+  "objects": [
+    {
+      "object_id": "NUM-BIRTH_NUMBER-01",
+      "domain": "birth_number",
+      "number": 1,
+      "title": "Birth Number 1: Initiative and Independence",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of leadership, initiative and self-direction.",
+      "property_note": "For an individual property, number 1 is interpreted through leadership, initiative and self-direction. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "1",
+        "initiative and independence"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-02",
+      "domain": "birth_number",
+      "number": 2,
+      "title": "Birth Number 2: Balance and Cooperation",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of partnership, sensitivity and cooperation.",
+      "property_note": "For an individual property, number 2 is interpreted through partnership, sensitivity and cooperation. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "2",
+        "balance and cooperation"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-03",
+      "domain": "birth_number",
+      "number": 3,
+      "title": "Birth Number 3: Expression and Creativity",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of communication, creativity and social expression.",
+      "property_note": "For an individual property, number 3 is interpreted through communication, creativity and social expression. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "3",
+        "expression and creativity"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-04",
+      "domain": "birth_number",
+      "number": 4,
+      "title": "Birth Number 4: Structure and Discipline",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of order, practicality and steady foundations.",
+      "property_note": "For an individual property, number 4 is interpreted through order, practicality and steady foundations. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "4",
+        "structure and discipline"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-05",
+      "domain": "birth_number",
+      "number": 5,
+      "title": "Birth Number 5: Movement and Adaptability",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of change, flexibility and exploration.",
+      "property_note": "For an individual property, number 5 is interpreted through change, flexibility and exploration. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "5",
+        "movement and adaptability"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-06",
+      "domain": "birth_number",
+      "number": 6,
+      "title": "Birth Number 6: Care and Responsibility",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of family, responsibility and harmony.",
+      "property_note": "For an individual property, number 6 is interpreted through family, responsibility and harmony. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "6",
+        "care and responsibility"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-07",
+      "domain": "birth_number",
+      "number": 7,
+      "title": "Birth Number 7: Reflection and Study",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of analysis, introspection and specialised learning.",
+      "property_note": "For an individual property, number 7 is interpreted through analysis, introspection and specialised learning. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "7",
+        "reflection and study"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-08",
+      "domain": "birth_number",
+      "number": 8,
+      "title": "Birth Number 8: Organisation and Material Management",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of authority, organisation and material stewardship.",
+      "property_note": "For an individual property, number 8 is interpreted through authority, organisation and material stewardship. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "8",
+        "organisation and material management"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-09",
+      "domain": "birth_number",
+      "number": 9,
+      "title": "Birth Number 9: Service and Completion",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of service, compassion and completion.",
+      "property_note": "For an individual property, number 9 is interpreted through service, compassion and completion. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "9",
+        "service and completion"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-11",
+      "domain": "birth_number",
+      "number": 11,
+      "title": "Birth Number 11: Intuitive Vision",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of heightened intuition, inspiration and vision.",
+      "property_note": "For an individual property, number 11 is interpreted through heightened intuition, inspiration and vision. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "11",
+        "intuitive vision"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-22",
+      "domain": "birth_number",
+      "number": 22,
+      "title": "Birth Number 22: Master Builder",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of large-scale planning, disciplined execution and legacy.",
+      "property_note": "For an individual property, number 22 is interpreted through large-scale planning, disciplined execution and legacy. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "22",
+        "master builder"
+      ]
+    },
+    {
+      "object_id": "NUM-BIRTH_NUMBER-33",
+      "domain": "birth_number",
+      "number": 33,
+      "title": "Birth Number 33: Compassionate Guidance",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of service, teaching and compassionate responsibility.",
+      "property_note": "For an individual property, number 33 is interpreted through service, teaching and compassionate responsibility. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "birth_number",
+        "33",
+        "compassionate guidance"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-01",
+      "domain": "life_path_number",
+      "number": 1,
+      "title": "Life Path Number 1: Initiative and Independence",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of leadership, initiative and self-direction.",
+      "property_note": "For an individual property, number 1 is interpreted through leadership, initiative and self-direction. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "1",
+        "initiative and independence"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-02",
+      "domain": "life_path_number",
+      "number": 2,
+      "title": "Life Path Number 2: Balance and Cooperation",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of partnership, sensitivity and cooperation.",
+      "property_note": "For an individual property, number 2 is interpreted through partnership, sensitivity and cooperation. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "2",
+        "balance and cooperation"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-03",
+      "domain": "life_path_number",
+      "number": 3,
+      "title": "Life Path Number 3: Expression and Creativity",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of communication, creativity and social expression.",
+      "property_note": "For an individual property, number 3 is interpreted through communication, creativity and social expression. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "3",
+        "expression and creativity"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-04",
+      "domain": "life_path_number",
+      "number": 4,
+      "title": "Life Path Number 4: Structure and Discipline",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of order, practicality and steady foundations.",
+      "property_note": "For an individual property, number 4 is interpreted through order, practicality and steady foundations. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "4",
+        "structure and discipline"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-05",
+      "domain": "life_path_number",
+      "number": 5,
+      "title": "Life Path Number 5: Movement and Adaptability",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of change, flexibility and exploration.",
+      "property_note": "For an individual property, number 5 is interpreted through change, flexibility and exploration. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "5",
+        "movement and adaptability"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-06",
+      "domain": "life_path_number",
+      "number": 6,
+      "title": "Life Path Number 6: Care and Responsibility",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of family, responsibility and harmony.",
+      "property_note": "For an individual property, number 6 is interpreted through family, responsibility and harmony. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "6",
+        "care and responsibility"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-07",
+      "domain": "life_path_number",
+      "number": 7,
+      "title": "Life Path Number 7: Reflection and Study",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of analysis, introspection and specialised learning.",
+      "property_note": "For an individual property, number 7 is interpreted through analysis, introspection and specialised learning. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "7",
+        "reflection and study"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-08",
+      "domain": "life_path_number",
+      "number": 8,
+      "title": "Life Path Number 8: Organisation and Material Management",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of authority, organisation and material stewardship.",
+      "property_note": "For an individual property, number 8 is interpreted through authority, organisation and material stewardship. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "8",
+        "organisation and material management"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-09",
+      "domain": "life_path_number",
+      "number": 9,
+      "title": "Life Path Number 9: Service and Completion",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of service, compassion and completion.",
+      "property_note": "For an individual property, number 9 is interpreted through service, compassion and completion. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "9",
+        "service and completion"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-11",
+      "domain": "life_path_number",
+      "number": 11,
+      "title": "Life Path Number 11: Intuitive Vision",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of heightened intuition, inspiration and vision.",
+      "property_note": "For an individual property, number 11 is interpreted through heightened intuition, inspiration and vision. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "11",
+        "intuitive vision"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-22",
+      "domain": "life_path_number",
+      "number": 22,
+      "title": "Life Path Number 22: Master Builder",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of large-scale planning, disciplined execution and legacy.",
+      "property_note": "For an individual property, number 22 is interpreted through large-scale planning, disciplined execution and legacy. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "22",
+        "master builder"
+      ]
+    },
+    {
+      "object_id": "NUM-LIFE_PATH_NUMBER-33",
+      "domain": "life_path_number",
+      "number": 33,
+      "title": "Life Path Number 33: Compassionate Guidance",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of service, teaching and compassionate responsibility.",
+      "property_note": "For an individual property, number 33 is interpreted through service, teaching and compassionate responsibility. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "life_path_number",
+        "33",
+        "compassionate guidance"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-01",
+      "domain": "property_number",
+      "number": 1,
+      "title": "Property Number 1: Initiative and Independence",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of leadership, initiative and self-direction.",
+      "property_note": "For an individual property, number 1 is interpreted through leadership, initiative and self-direction. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "1",
+        "initiative and independence"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-02",
+      "domain": "property_number",
+      "number": 2,
+      "title": "Property Number 2: Balance and Cooperation",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of partnership, sensitivity and cooperation.",
+      "property_note": "For an individual property, number 2 is interpreted through partnership, sensitivity and cooperation. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "2",
+        "balance and cooperation"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-03",
+      "domain": "property_number",
+      "number": 3,
+      "title": "Property Number 3: Expression and Creativity",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of communication, creativity and social expression.",
+      "property_note": "For an individual property, number 3 is interpreted through communication, creativity and social expression. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "3",
+        "expression and creativity"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-04",
+      "domain": "property_number",
+      "number": 4,
+      "title": "Property Number 4: Structure and Discipline",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of order, practicality and steady foundations.",
+      "property_note": "For an individual property, number 4 is interpreted through order, practicality and steady foundations. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "4",
+        "structure and discipline"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-05",
+      "domain": "property_number",
+      "number": 5,
+      "title": "Property Number 5: Movement and Adaptability",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of change, flexibility and exploration.",
+      "property_note": "For an individual property, number 5 is interpreted through change, flexibility and exploration. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "5",
+        "movement and adaptability"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-06",
+      "domain": "property_number",
+      "number": 6,
+      "title": "Property Number 6: Care and Responsibility",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of family, responsibility and harmony.",
+      "property_note": "For an individual property, number 6 is interpreted through family, responsibility and harmony. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "6",
+        "care and responsibility"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-07",
+      "domain": "property_number",
+      "number": 7,
+      "title": "Property Number 7: Reflection and Study",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of analysis, introspection and specialised learning.",
+      "property_note": "For an individual property, number 7 is interpreted through analysis, introspection and specialised learning. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "7",
+        "reflection and study"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-08",
+      "domain": "property_number",
+      "number": 8,
+      "title": "Property Number 8: Organisation and Material Management",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of authority, organisation and material stewardship.",
+      "property_note": "For an individual property, number 8 is interpreted through authority, organisation and material stewardship. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "8",
+        "organisation and material management"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-09",
+      "domain": "property_number",
+      "number": 9,
+      "title": "Property Number 9: Service and Completion",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of service, compassion and completion.",
+      "property_note": "For an individual property, number 9 is interpreted through service, compassion and completion. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "9",
+        "service and completion"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-11",
+      "domain": "property_number",
+      "number": 11,
+      "title": "Property Number 11: Intuitive Vision",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of heightened intuition, inspiration and vision.",
+      "property_note": "For an individual property, number 11 is interpreted through heightened intuition, inspiration and vision. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "11",
+        "intuitive vision"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-22",
+      "domain": "property_number",
+      "number": 22,
+      "title": "Property Number 22: Master Builder",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of large-scale planning, disciplined execution and legacy.",
+      "property_note": "For an individual property, number 22 is interpreted through large-scale planning, disciplined execution and legacy. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "22",
+        "master builder"
+      ]
+    },
+    {
+      "object_id": "NUM-PROPERTY_NUMBER-33",
+      "domain": "property_number",
+      "number": 33,
+      "title": "Property Number 33: Compassionate Guidance",
+      "polarity": "contextual",
+      "severity": "Informational",
+      "confidence": 0.75,
+      "summary": "This number is commonly interpreted through themes of service, teaching and compassionate responsibility.",
+      "property_note": "For an individual property, number 33 is interpreted through service, teaching and compassionate responsibility. The suitability depends on the intended user profile and selected numerology method.",
+      "limitations": [
+        "Numerology is belief-based and interpretations vary by school.",
+        "This object is informational and must not be treated as financial, legal, structural or safety advice."
+      ],
+      "version": "1.0.0",
+      "active": true,
+      "tags": [
+        "property_number",
+        "33",
+        "compassionate guidance"
+      ]
+    },
+    {
+      "object_id": "NUM-ALIGN-EXACT-BIRTH",
+      "domain": "alignment",
+      "condition": "property_number equals birth_number",
+      "title": "Property Number Aligns with Birth Number",
+      "polarity": "positive",
+      "severity": "Supportive",
+      "score_delta": 18,
+      "confidence": 0.8,
+      "summary": "The reduced property number matches the intended user's Birth Number.",
+      "recommendation": "Treat this as a supportive personal-number alignment while reviewing the complete Numerology assessment.",
+      "version": "1.0.0",
+      "active": true
+    },
+    {
+      "object_id": "NUM-ALIGN-EXACT-LIFE",
+      "domain": "alignment",
+      "condition": "property_number equals life_path_number",
+      "title": "Property Number Aligns with Life Path Number",
+      "polarity": "positive",
+      "severity": "Supportive",
+      "score_delta": 18,
+      "confidence": 0.8,
+      "summary": "The reduced property number matches the intended user's Life Path Number.",
+      "recommendation": "Treat this as a supportive long-term alignment under the selected foundational profile.",
+      "version": "1.0.0",
+      "active": true
+    },
+    {
+      "object_id": "NUM-ALIGN-BOTH",
+      "domain": "alignment",
+      "condition": "birth_number equals life_path_number equals property_number",
+      "title": "Three-Way Number Alignment",
+      "polarity": "positive",
+      "severity": "Strong",
+      "score_delta": 12,
+      "confidence": 0.85,
+      "summary": "Birth, Life Path and Property numbers are the same.",
+      "recommendation": "Record this as a strong alignment, while preserving the independent nature of the Numerology assessment.",
+      "version": "1.0.0",
+      "active": true
+    },
+    {
+      "object_id": "NUM-ALIGN-NO-EXACT",
+      "domain": "alignment",
+      "condition": "property_number matches neither birth_number nor life_path_number",
+      "title": "No Exact Core-Number Match",
+      "polarity": "neutral",
+      "severity": "Review",
+      "score_delta": 0,
+      "confidence": 0.7,
+      "summary": "The property number does not exactly match the Birth or Life Path number.",
+      "recommendation": "Review the individual number meanings and future expanded relationship rules; do not treat the absence of an exact match as an automatic rejection.",
+      "version": "1.0.0",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "category": "Toilet",
+  "rules": [
+    {
+      "rule_id": "VK-028",
+      "title": "Toilet in North",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "North",
+      "polarity": "neutral",
+      "score_delta": -1,
+      "severity": "Medium",
+      "knowledge_confidence": 0.7,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-001",
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-029",
+      "title": "Toilet in North-East",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "North-East",
+      "polarity": "negative",
+      "score_delta": -6,
+      "severity": "Critical",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-001",
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-030",
+      "title": "Toilet in East",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "East",
+      "polarity": "neutral",
+      "score_delta": -1,
+      "severity": "Medium",
+      "knowledge_confidence": 0.7,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-001",
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-031",
+      "title": "Toilet in South-East",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "South-East",
+      "polarity": "neutral",
+      "score_delta": -1,
+      "severity": "Medium",
+      "knowledge_confidence": 0.7,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-001",
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-032",
+      "title": "Toilet in South",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "South",
+      "polarity": "positive",
+      "score_delta": 2,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-033",
+      "title": "Toilet in South-West",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -3,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-001",
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-034",
+      "title": "Toilet in West",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "West",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-035",
+      "title": "Toilet in North-West",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "North-West",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-036",
+      "title": "Toilet in Centre",
+      "category": "Toilet",
+      "field": "toilet_direction",
+      "direction": "Centre",
+      "polarity": "negative",
+      "score_delta": -6,
+      "severity": "Critical",
+      "knowledge_confidence": 0.85,
+      "explanation": "North-East and central toilets are commonly treated as concerns.",
+      "practical_impact": "Toilet placement can trigger planning or mitigation guidance.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-TOI-001",
+        "REC-TOI-002"
+      ],
+      "tags": [
+        "toilet",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

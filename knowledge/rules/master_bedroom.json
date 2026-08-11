@@ -1,0 +1,251 @@
+{
+  "category": "Master Bedroom",
+  "rules": [
+    {
+      "rule_id": "VK-019",
+      "title": "Master Bedroom in North",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "North",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "master_bedroom",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-020",
+      "title": "Master Bedroom in North-East",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "North-East",
+      "polarity": "negative",
+      "score_delta": -4,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BED-001"
+      ],
+      "tags": [
+        "master_bedroom",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-021",
+      "title": "Master Bedroom in East",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "East",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "master_bedroom",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-022",
+      "title": "Master Bedroom in South-East",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "South-East",
+      "polarity": "negative",
+      "score_delta": -2,
+      "severity": "Medium",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BED-001"
+      ],
+      "tags": [
+        "master_bedroom",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-023",
+      "title": "Master Bedroom in South",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "South",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BED-001"
+      ],
+      "tags": [
+        "master_bedroom",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-024",
+      "title": "Master Bedroom in South-West",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "South-West",
+      "polarity": "positive",
+      "score_delta": 5,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BED-001"
+      ],
+      "tags": [
+        "master_bedroom",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-025",
+      "title": "Master Bedroom in West",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "West",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BED-001"
+      ],
+      "tags": [
+        "master_bedroom",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-026",
+      "title": "Master Bedroom in North-West",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "North-West",
+      "polarity": "neutral",
+      "score_delta": 0,
+      "severity": "Low",
+      "knowledge_confidence": 0.7,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [],
+      "tags": [
+        "master_bedroom",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-027",
+      "title": "Master Bedroom in Centre",
+      "category": "Master Bedroom",
+      "field": "master_bedroom_direction",
+      "direction": "Centre",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-West is traditionally associated with stability.",
+      "practical_impact": "The location affects stability and hierarchy interpretation.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-BED-001"
+      ],
+      "tags": [
+        "master_bedroom",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

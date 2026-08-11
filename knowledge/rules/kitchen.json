@@ -1,0 +1,264 @@
+{
+  "category": "Kitchen",
+  "rules": [
+    {
+      "rule_id": "VK-010",
+      "title": "Kitchen in North",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "North",
+      "polarity": "neutral",
+      "score_delta": -1,
+      "severity": "Medium",
+      "knowledge_confidence": 0.7,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001",
+        "REC-KIT-002"
+      ],
+      "tags": [
+        "kitchen",
+        "north"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-011",
+      "title": "Kitchen in North-East",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "North-East",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001",
+        "REC-KIT-002"
+      ],
+      "tags": [
+        "kitchen",
+        "north_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-012",
+      "title": "Kitchen in East",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "East",
+      "polarity": "neutral",
+      "score_delta": -1,
+      "severity": "Medium",
+      "knowledge_confidence": 0.7,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001",
+        "REC-KIT-002"
+      ],
+      "tags": [
+        "kitchen",
+        "east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-013",
+      "title": "Kitchen in South-East",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "South-East",
+      "polarity": "positive",
+      "score_delta": 5,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001"
+      ],
+      "tags": [
+        "kitchen",
+        "south_east"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-014",
+      "title": "Kitchen in South",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "South",
+      "polarity": "neutral",
+      "score_delta": -1,
+      "severity": "Medium",
+      "knowledge_confidence": 0.7,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001",
+        "REC-KIT-002"
+      ],
+      "tags": [
+        "kitchen",
+        "south"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-015",
+      "title": "Kitchen in South-West",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "South-West",
+      "polarity": "negative",
+      "score_delta": -5,
+      "severity": "High",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001",
+        "REC-KIT-002"
+      ],
+      "tags": [
+        "kitchen",
+        "south_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-016",
+      "title": "Kitchen in West",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "West",
+      "polarity": "neutral",
+      "score_delta": -1,
+      "severity": "Medium",
+      "knowledge_confidence": 0.7,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001",
+        "REC-KIT-002"
+      ],
+      "tags": [
+        "kitchen",
+        "west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-017",
+      "title": "Kitchen in North-West",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "North-West",
+      "polarity": "positive",
+      "score_delta": 3,
+      "severity": "Low",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001"
+      ],
+      "tags": [
+        "kitchen",
+        "north_west"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    },
+    {
+      "rule_id": "VK-018",
+      "title": "Kitchen in Centre",
+      "category": "Kitchen",
+      "field": "kitchen_direction",
+      "direction": "Centre",
+      "polarity": "negative",
+      "score_delta": -6,
+      "severity": "Critical",
+      "knowledge_confidence": 0.85,
+      "explanation": "South-East is traditionally associated with fire.",
+      "practical_impact": "Kitchen placement is treated as a high-weight consideration.",
+      "source_type": "Traditional interpretation",
+      "source_note": "Belief-based guidance; interpretations may vary.",
+      "recommendation_ids": [
+        "REC-KIT-001",
+        "REC-KIT-002"
+      ],
+      "tags": [
+        "kitchen",
+        "centre"
+      ],
+      "profile_weights": {
+        "classical": 1.2,
+        "practical": 1.0,
+        "builder": 1.1,
+        "consultant": 1.0
+      }
+    }
+  ]
+}

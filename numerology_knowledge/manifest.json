@@ -1,0 +1,12 @@
+{
+  "domain": "professional_numerology",
+  "knowledge_version": "1.0.0",
+  "schema_version": 1,
+  "scope": "individual_property_and_intended_user",
+  "method": "Foundational DOB and Property Number",
+  "notes": [
+    "Vastu and Numerology remain independent assessments.",
+    "This domain does not assess towers, buildings or projects.",
+    "Compatibility with Vastu is outside this release."
+  ]
+}
