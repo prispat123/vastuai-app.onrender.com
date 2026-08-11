@@ -675,3 +675,11 @@ Advisor.
 ## v5.8.1 — Render cloud deployment
 
 For cloud/PWA deployment using `app.vastuai.in`, see `RENDER_DEPLOYMENT_GUIDE.md` and `render.yaml`.
+
+## v5.8.2 — Free Render beta
+
+- Adds a no-paid-disk Render Blueprint for HTTPS/PWA beta testing.
+- Uses Render's Free web-service instance type.
+- Uses `/tmp/vastuai-data` for temporary cloud SQLite and uploaded-file storage.
+- Cloud test data is intentionally non-durable in this beta and can be lost after idle spin-down, restart, or redeploy.
+- Use this release to validate Android PWA installation and remote access without a desktop PC running.
