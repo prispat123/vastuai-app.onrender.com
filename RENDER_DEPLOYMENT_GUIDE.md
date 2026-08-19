@@ -83,3 +83,16 @@ Once the HTTPS URL loads:
 ## Next architecture step
 
 Before broader external testing or production use, move persistent application data away from local SQLite/ephemeral files to durable cloud storage with authentication and per-user isolation.
+
+
+## v6.0.0 Supabase authentication
+
+Add these Render environment variables before deploying v6.0.0:
+
+- `SUPABASE_URL` = `https://dovbtkmxqtczinxmqrub.supabase.co`
+- `SUPABASE_PUBLISHABLE_KEY` = the project's publishable key from Supabase
+- `OPENAI_API_KEY` = your existing server-side OpenAI key
+
+The publishable Supabase key is intended for application clients and is constrained
+by Row Level Security. Never put a Supabase secret/service-role key in the client UI
+or source repository.

@@ -18,7 +18,7 @@ def test_navigation_contains_portfolio_consultant():
 
 def test_version_is_v5_series():
     version = (ROOT / "professional_app" / "version.py").read_text(encoding="utf-8")
-    assert '5.' in version
+    assert '6.' in version
 
 
 def test_portfolio_ranking_preserves_overall_score_and_tiebreakers():

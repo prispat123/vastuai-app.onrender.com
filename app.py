@@ -3,6 +3,7 @@ from __future__ import annotations
 import streamlit as st
 
 from platform_core import __version__, projects as project_store
+from platform_core import auth
 from platform_core.database import initialize_database
 from platform_core.state import initialize_state, navigate
 from pwa_support import install_pwa_metadata
@@ -140,6 +141,12 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# v6.0.0 authentication boundary. No workspace or business data is rendered
+# until Supabase has authenticated the browser session.
+if not auth.render_login_gate():
+    st.stop()
+
+
 pending_section = st.session_state.pop("pending_project_section", None)
 if pending_section:
     st.session_state.project_section = pending_section
@@ -157,6 +164,10 @@ if st.session_state.active_project_id:
 with st.sidebar:
     st.title("🧭 VastuAI Platform")
     st.caption(f"Version {__version__}")
+    st.caption(f"Signed in · {st.session_state.get('user_email', '')}")
+    if st.button("↪ Sign out", use_container_width=True, key="nav_sign_out"):
+        auth.sign_out()
+        st.rerun()
 
     if st.button("🏠 Home", use_container_width=True, key="nav_home"):
         st.session_state.workspace = None

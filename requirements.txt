@@ -15,3 +15,5 @@ pytesseract>=0.3.13
 
 
 openpyxl>=3.1
+
+supabase>=2.18,<3
