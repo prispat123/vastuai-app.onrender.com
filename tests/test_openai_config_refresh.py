@@ -7,7 +7,7 @@ def test_root_env_is_authoritative():
         / "platform_core"
         / "config.py"
     ).read_text(encoding="utf-8")
-    assert 'load_dotenv(ROOT_DIR / ".env", override=True)' in source
+    assert 'load_dotenv(ROOT_DIR / ".env", override=False)' in source
 
 def test_openai_service_refreshes_environment():
     source = (
@@ -16,7 +16,7 @@ def test_openai_service_refreshes_environment():
         / "openai_service.py"
     ).read_text(encoding="utf-8")
     assert "def refresh_environment" in source
-    assert 'load_dotenv(ROOT_DIR / ".env", override=True)' in source
+    assert 'load_dotenv(ROOT_DIR / ".env", override=False)' in source
     assert "CONFIG.openai_api_key" not in source
 
 def test_service_detects_runtime_key(monkeypatch):

@@ -7,7 +7,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
-load_dotenv(ROOT_DIR / ".env", override=True)
+load_dotenv(ROOT_DIR / ".env", override=False)
 
 def _streamlit_secret(name: str, default=None):
     try:

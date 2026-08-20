@@ -9,6 +9,7 @@ from assessment_core import build_snapshot
 from assessment_core.record_compatibility import normalize_professional_result
 from knowledge_engine.importer import runtime_status
 from platform_core.database import connect, initialize_database, transaction
+from platform_core import cloud_repository
 from professional_app.version import __version__
 from professional_app.services.buyer_workspace_service import link_pdp_to_buyer
 
@@ -161,12 +162,17 @@ def insert_profile(connection, project_id: int, analysis_id: int, payload: dict,
 
 
 def create_profile(project_id: int, analysis_id: int, payload: dict, stored_result: dict) -> dict:
+    if cloud_repository.enabled():
+        profile = build_profile(project_id, analysis_id, payload, stored_result)
+        return cloud_repository.create_pdp(int(analysis_id), profile)
     initialize_database()
     with transaction() as connection:
         return insert_profile(connection, project_id, analysis_id, payload, stored_result)
 
 
 def latest_for_analysis(analysis_id: int) -> dict | None:
+    if cloud_repository.enabled():
+        return cloud_repository.latest_pdp_for_analysis(int(analysis_id))
     initialize_database()
     with connect() as connection:
         row = connection.execute("SELECT * FROM property_decision_profiles WHERE analysis_id=? ORDER BY id DESC LIMIT 1", (int(analysis_id),)).fetchone()
@@ -178,6 +184,8 @@ def latest_for_analysis(analysis_id: int) -> dict | None:
 
 
 def backfill_missing_profiles(project_id: int) -> dict[str, Any]:
+    if cloud_repository.enabled():
+        return {"eligible": 0, "created_count": 0, "created": [], "failure_count": 0, "failures": [], "note": "Cloud PDPs are created automatically with each assessment."}
     initialize_database()
     with connect() as connection:
         rows = connection.execute(
@@ -210,6 +218,8 @@ def _needs_enrichment(profile: dict) -> bool:
 
 def enrich_existing_profiles(project_id: int) -> dict[str, Any]:
     """Enrich PDP metadata from the original saved assessment without changing its Decision ID."""
+    if cloud_repository.enabled():
+        return {"updated_count": 0, "updated": [], "failure_count": 0, "failures": [], "note": "Cloud PDPs are already written at the current schema version."}
     initialize_database()
     updated, failures = [], []
     with transaction() as connection:
@@ -234,12 +244,16 @@ def enrich_existing_profiles(project_id: int) -> dict[str, Any]:
 
 
 def list_profiles(project_id: int) -> list[dict]:
+    if cloud_repository.enabled():
+        return cloud_repository.list_pdps()
     initialize_database()
     with connect() as connection:
         return [dict(row) for row in connection.execute("""SELECT id,decision_id,analysis_id,owner_name,property_name,property_number,overall_score,overall_rating,created_at FROM property_decision_profiles WHERE project_id=? ORDER BY id DESC""", (int(project_id),)).fetchall()]
 
 
 def get_profile(decision_id: str) -> dict | None:
+    if cloud_repository.enabled():
+        return cloud_repository.get_pdp(decision_id)
     initialize_database()
     with connect() as connection:
         row = connection.execute("SELECT * FROM property_decision_profiles WHERE decision_id=?", (decision_id,)).fetchone()

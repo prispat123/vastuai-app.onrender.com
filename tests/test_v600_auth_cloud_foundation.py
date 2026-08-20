@@ -19,5 +19,5 @@ def test_v600_app_has_auth_gate():
 def test_v600_cloud_repository_is_user_scoped():
     root = Path(__file__).resolve().parents[1]
     text = (root / "platform_core" / "cloud_repository.py").read_text(encoding="utf-8")
-    assert '.eq("user_id", uid)' in text
-    assert '"user_id": uid' in text
+    assert '.eq("user_id", _uid())' in text
+    assert '"user_id": _uid()' in text

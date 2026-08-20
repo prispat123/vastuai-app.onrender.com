@@ -3,15 +3,18 @@ from __future__ import annotations
 import os
 from typing import Any
 
-import streamlit as st
-from supabase import Client, create_client
+
+def _st():
+    import streamlit as st
+    return st
 
 
 def configured() -> bool:
     return bool(os.getenv("SUPABASE_URL", "").strip() and os.getenv("SUPABASE_PUBLISHABLE_KEY", "").strip())
 
 
-def _new_client() -> Client:
+def _new_client():
+    from supabase import create_client
     url = os.getenv("SUPABASE_URL", "").strip()
     key = os.getenv("SUPABASE_PUBLISHABLE_KEY", "").strip()
     if not url or not key:
@@ -19,14 +22,18 @@ def _new_client() -> Client:
     return create_client(url, key)
 
 
-def client() -> Client:
+def client():
+    st = _st()
     if "_supabase_client" not in st.session_state:
         st.session_state["_supabase_client"] = _new_client()
     return st.session_state["_supabase_client"]
 
 
 def current_user() -> Any | None:
-    return st.session_state.get("auth_user")
+    try:
+        return _st().session_state.get("auth_user")
+    except Exception:
+        return None
 
 
 def user_id() -> str | None:
@@ -35,6 +42,7 @@ def user_id() -> str | None:
 
 
 def _store_auth(response: Any) -> None:
+    st = _st()
     user = getattr(response, "user", None)
     session = getattr(response, "session", None)
     st.session_state.auth_user = user
@@ -62,6 +70,7 @@ def sign_up(email: str, password: str, display_name: str) -> bool:
 
 
 def sign_out() -> None:
+    st = _st()
     try:
         if "_supabase_client" in st.session_state:
             st.session_state["_supabase_client"].auth.sign_out()
@@ -75,6 +84,7 @@ def sign_out() -> None:
 
 def render_login_gate() -> bool:
     """Render authentication UI. Return True only for an authenticated session."""
+    st = _st()
     if current_user() is not None:
         return True
 
@@ -127,5 +137,5 @@ def render_login_gate() -> bool:
                 except Exception as exc:
                     st.error(f"Account creation failed: {exc}")
 
-    st.info("Your VastuAI records will be associated with your authenticated user ID.")
+    st.info("Your VastuAI records are associated with your authenticated user ID.")
     return False

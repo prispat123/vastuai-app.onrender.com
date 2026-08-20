@@ -784,7 +784,7 @@ def render_layout_upload() -> None:
     for issue in quality.issues:
         st.warning(issue)
     if not os.getenv("OPENAI_API_KEY"):
-        st.error("Configure OPENAI_API_KEY in .env locally or in Streamlit Cloud Secrets before using automated layout analysis.")
+        st.error("Configure OPENAI_API_KEY in the server environment or local .env before using automated layout analysis.")
         return
 
     action_cols = st.columns([3, 1])
@@ -1941,7 +1941,7 @@ def render_section(project_id: int, requested_section: str | None = None) -> Non
             icon="✅",
         )
     else:
-        st.warning("OPENAI_API_KEY is not configured in the platform root .env.")
+        st.warning("OPENAI_API_KEY is not configured for this deployment.")
 
     st.divider()
     st.caption(

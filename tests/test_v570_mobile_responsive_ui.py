@@ -23,5 +23,5 @@ def test_mobile_tabs_tables_and_buttons_are_touch_safe():
 
 
 def test_mobile_release_version():
-    assert '6.0.0' in (ROOT / 'professional_app' / 'version.py').read_text(encoding='utf-8')
-    assert '6.0.0' in (ROOT / 'platform_core' / '__init__.py').read_text(encoding='utf-8')
+    assert '6.0.1' in (ROOT / 'professional_app' / 'version.py').read_text(encoding='utf-8')
+    assert '6.0.1' in (ROOT / 'platform_core' / '__init__.py').read_text(encoding='utf-8')

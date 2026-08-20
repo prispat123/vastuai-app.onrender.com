@@ -23,8 +23,8 @@ def test_individual_ai_consultant_has_suggested_questions():
 
 
 def test_platform_version_is_v532():
-    assert '6.0.0' in (ROOT / 'professional_app' / 'version.py').read_text(encoding='utf-8')
-    assert '6.0.0' in (ROOT / 'platform_core' / '__init__.py').read_text(encoding='utf-8')
+    assert '6.0.1' in (ROOT / 'professional_app' / 'version.py').read_text(encoding='utf-8')
+    assert '6.0.1' in (ROOT / 'platform_core' / '__init__.py').read_text(encoding='utf-8')
 
 
 def test_property_selector_uses_full_property_frame_not_filtered_view():

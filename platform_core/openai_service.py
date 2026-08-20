@@ -30,7 +30,7 @@ class OpenAIService:
     def refresh_environment(self) -> None:
         # Always load the platform-root file, regardless of the current
         # working directory or how Streamlit was launched.
-        load_dotenv(ROOT_DIR / ".env", override=True)
+        load_dotenv(ROOT_DIR / ".env", override=False)
 
     def _value(self, name: str, default: str = "") -> str:
         self.refresh_environment()
@@ -62,8 +62,7 @@ class OpenAIService:
         key = self.api_key
         if not key:
             raise RuntimeError(
-                "OPENAI_API_KEY was not found in the platform root "
-                f".env file: {ROOT_DIR / '.env'}"
+                "OPENAI_API_KEY is not configured in the runtime environment or local .env file."
             )
 
         fingerprint = key[-8:]
