@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 from assessment_core.record_compatibility import normalize_professional_result
-from platform_core import projects
+from platform_core import projects, cloud_repository
 from platform_core.database import connect
 from platform_core.state import navigate
 
@@ -16,7 +16,13 @@ def _workspace_label(workspace: str) -> str:
 
 
 def _professional_properties() -> list[dict]:
-    """Return saved Professional properties across all underlying projects."""
+    """Return the signed-in user's saved Professional properties.
+
+    Supabase is the source of truth for authenticated cloud sessions. SQLite is
+    retained only as the local/offline compatibility fallback.
+    """
+    if cloud_repository.enabled():
+        return cloud_repository.list_professional_analyses(limit=500)
     with connect() as connection:
         rows = connection.execute(
             """
@@ -44,7 +50,10 @@ def _professional_container_project_id() -> int:
 
 
 def _open_property(row: dict) -> None:
-    st.session_state.active_project_id = int(row["project_id"])
+    # Cloud Professional records deliberately do not depend on the ephemeral
+    # SQLite project ID. Recreate/reuse a local compatibility container only
+    # for the existing workspace navigation shell.
+    st.session_state.active_project_id = _professional_container_project_id()
     st.session_state.pending_project_section = "Vastu Analysis"
     st.session_state.analysis_result = normalize_professional_result(
         json.loads(row.get("result_json") or "{}")

@@ -34,11 +34,11 @@ class OpenAIService:
 
     def _value(self, name: str, default: str = "") -> str:
         self.refresh_environment()
-        return (
-            str(os.getenv(name, "") or "").strip()
-            or _streamlit_secret(name, default).strip()
-            or default
-        )
+        value = str(os.getenv(name, "") or "").strip()
+        if value:
+            return value
+        secret_value = _streamlit_secret(name, default).strip()
+        return secret_value or default
 
     @property
     def api_key(self) -> str:
@@ -105,6 +105,8 @@ class OpenAIService:
         env_path = ROOT_DIR / ".env"
         return {
             "configured": self.configured,
+            "runtime_env_present": bool(str(os.getenv("OPENAI_API_KEY", "") or "").strip()),
+            "streamlit_secret_present": bool(_streamlit_secret("OPENAI_API_KEY", "").strip()),
             "env_path": str(env_path),
             "env_file_exists": env_path.exists(),
             "default_model": self.models.default_model,

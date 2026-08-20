@@ -58,7 +58,7 @@ def _make_portfolio():
 
 
 def test_version_is_v520_and_ui_contains_chat():
-    assert '6.0.1' in (ROOT / 'professional_app' / 'version.py').read_text(encoding='utf-8')
+    assert '6.0.2' in (ROOT / 'professional_app' / 'version.py').read_text(encoding='utf-8')
     ui = (ROOT / 'professional_app' / 'ui.py').read_text(encoding='utf-8')
     assert 'AI Portfolio Consultant' in ui
     assert 'Compare two properties' in ui

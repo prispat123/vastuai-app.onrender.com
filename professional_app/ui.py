@@ -1941,7 +1941,15 @@ def render_section(project_id: int, requested_section: str | None = None) -> Non
             icon="✅",
         )
     else:
-        st.warning("OPENAI_API_KEY is not configured for this deployment.")
+        health = OPENAI.health()
+        st.warning(
+            "OPENAI_API_KEY is not available to the running deployment. "
+            "Check the Render service Environment variable named exactly OPENAI_API_KEY."
+        )
+        st.caption(
+            f"Runtime environment detected: {'Yes' if health.get('runtime_env_present') else 'No'} · "
+            f"Streamlit secret detected: {'Yes' if health.get('streamlit_secret_present') else 'No'}"
+        )
 
     st.divider()
     st.caption(

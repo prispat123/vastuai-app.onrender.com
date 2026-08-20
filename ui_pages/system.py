@@ -28,7 +28,7 @@ def render() -> None:
             "be parsed."
         )
     else:
-        st.success("The platform root .env and OpenAI key were detected.")
+        st.success("OpenAI API key is available to the running VastuAI service.")
     st.subheader("Shared cache")
     c1, c2, c3 = st.columns(3)
     if c1.button("Clear Vision Cache", use_container_width=True):
