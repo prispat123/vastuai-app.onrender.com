@@ -3,6 +3,7 @@ import hashlib
 import json
 import io
 import html
+import re
 from typing import Any
 
 from platform_core.database import connect, initialize_database, transaction
@@ -111,7 +112,12 @@ def history(project_id: int, analysis_id: int) -> list[dict]:
 
 
 def build_response_pdf(*, property_name: str, question: str, answer: str, model_name: str = "") -> bytes:
-    """Create a compact client-friendly PDF of one AI Consultant response."""
+    """Create a readable client-facing PDF for an AI Consultant response.
+
+    The AI can return Markdown (including comparison tables).  Convert the small
+    Markdown subset used by VastuAI into ReportLab flowables instead of printing
+    Markdown pipes as one long paragraph.
+    """
     from reportlab.lib import colors
     from reportlab.lib.enums import TA_LEFT
     from reportlab.lib.pagesizes import A4
@@ -123,49 +129,101 @@ def build_response_pdf(*, property_name: str, question: str, answer: str, model_
     styles = getSampleStyleSheet()
     title = ParagraphStyle(
         "VastuAITitle", parent=styles["Title"], fontName="Helvetica-Bold",
-        fontSize=20, leading=24, textColor=colors.HexColor("#285943"), alignment=TA_LEFT,
+        fontSize=18, leading=22, textColor=colors.HexColor("#285943"), alignment=TA_LEFT,
+        spaceAfter=5*mm,
     )
     heading = ParagraphStyle(
         "VastuAIHeading", parent=styles["Heading2"], fontName="Helvetica-Bold",
-        fontSize=11, leading=14, textColor=colors.HexColor("#285943"),
+        fontSize=11, leading=14, textColor=colors.HexColor("#285943"), spaceBefore=2*mm,
     )
     body = ParagraphStyle(
         "VastuAIBody", parent=styles["BodyText"], fontName="Helvetica",
-        fontSize=9.5, leading=14, textColor=colors.HexColor("#30443A"),
+        fontSize=9.2, leading=13, textColor=colors.HexColor("#30443A"), spaceAfter=1.5*mm,
+    )
+    small = ParagraphStyle(
+        "VastuAISmall", parent=body, fontSize=7.2, leading=9.2, spaceAfter=0,
     )
     doc = SimpleDocTemplate(
-        buffer, pagesize=A4, leftMargin=18*mm, rightMargin=18*mm,
-        topMargin=18*mm, bottomMargin=18*mm,
+        buffer, pagesize=A4, leftMargin=16*mm, rightMargin=16*mm,
+        topMargin=16*mm, bottomMargin=16*mm,
         title=f"VastuAI AI Consultant - {property_name}", author="VastuAI",
     )
+
+    def clean_inline(text: str) -> str:
+        text = str(text or "").strip()
+        text = re.sub(r"\*\*(.+?)\*\*", r"\1", text)
+        text = re.sub(r"`(.+?)`", r"\1", text)
+        return html.escape(text)
+
+    def is_separator(line: str) -> bool:
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        return bool(cells) and all(re.fullmatch(r":?-{3,}:?", c or "") for c in cells)
+
+    def add_markdown(flow, markdown: str) -> None:
+        lines = str(markdown or "").replace("\\n", "\n").splitlines()
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            if not line:
+                i += 1
+                continue
+            # Markdown table: header, separator, then rows.
+            if "|" in line and i + 1 < len(lines) and is_separator(lines[i + 1]):
+                raw_rows = [line]
+                i += 2
+                while i < len(lines) and "|" in lines[i] and lines[i].strip():
+                    raw_rows.append(lines[i].strip())
+                    i += 1
+                rows = [[Paragraph(clean_inline(c), small) for c in r.strip().strip("|").split("|")] for r in raw_rows]
+                width = 178 * mm
+                cols = max(len(r) for r in rows)
+                for r in rows:
+                    r.extend([Paragraph("", small)] * (cols - len(r)))
+                table = Table(rows, colWidths=[width / cols] * cols, repeatRows=1, hAlign="LEFT")
+                table.setStyle(TableStyle([
+                    ("BACKGROUND", (0,0), (-1,0), colors.HexColor("#EAF2EE")),
+                    ("TEXTCOLOR", (0,0), (-1,0), colors.HexColor("#285943")),
+                    ("FONTNAME", (0,0), (-1,0), "Helvetica-Bold"),
+                    ("GRID", (0,0), (-1,-1), 0.3, colors.HexColor("#B8D2C5")),
+                    ("VALIGN", (0,0), (-1,-1), "TOP"),
+                    ("LEFTPADDING", (0,0), (-1,-1), 3),
+                    ("RIGHTPADDING", (0,0), (-1,-1), 3),
+                    ("TOPPADDING", (0,0), (-1,-1), 3),
+                    ("BOTTOMPADDING", (0,0), (-1,-1), 3),
+                ]))
+                flow.extend([table, Spacer(1, 3*mm)])
+                continue
+            if line.startswith(("### ", "## ", "# ")):
+                flow.append(Paragraph(clean_inline(line.lstrip("# ")), heading))
+            elif re.match(r"^[-*]\s+", line):
+                flow.append(Paragraph("&#8226; " + clean_inline(re.sub(r"^[-*]\s+", "", line)), body))
+            elif re.match(r"^\d+[.)]\s+", line):
+                flow.append(Paragraph(clean_inline(line), body))
+            else:
+                flow.append(Paragraph(clean_inline(line), body))
+            i += 1
+
     story = [
         Paragraph("VastuAI AI Consultant", title),
-        Paragraph(html.escape(property_name or "Property"), styles["Heading2"]),
-        Spacer(1, 5*mm),
+        Paragraph(clean_inline(property_name or "Property"), styles["Heading2"]),
+        Spacer(1, 3*mm),
         Table(
-            [["Question", Paragraph(html.escape(question), body)],
-             ["Model", html.escape(model_name or "VastuAI AI Consultant")]],
-            colWidths=[30*mm, 130*mm],
+            [[Paragraph("Question", heading), Paragraph(clean_inline(question), body)]],
+            colWidths=[28*mm, 150*mm],
             style=TableStyle([
                 ("BACKGROUND",(0,0),(0,-1),colors.HexColor("#EAF2EE")),
-                ("TEXTCOLOR",(0,0),(0,-1),colors.HexColor("#285943")),
-                ("FONTNAME",(0,0),(0,-1),"Helvetica-Bold"),
                 ("GRID",(0,0),(-1,-1),0.35,colors.HexColor("#B8D2C5")),
                 ("VALIGN",(0,0),(-1,-1),"TOP"),
                 ("PADDING",(0,0),(-1,-1),6),
             ])
         ),
-        Spacer(1, 7*mm),
+        Spacer(1, 6*mm),
         Paragraph("Consultant response", heading),
-        Spacer(1, 2*mm),
+        Spacer(1, 1*mm),
     ]
-    for para in str(answer or "").split("\\n"):
-        text = para.strip()
-        if text:
-            story.append(Paragraph(html.escape(text), body))
-            story.append(Spacer(1, 2*mm))
+    add_markdown(story, answer)
     story += [
-        Spacer(1, 5*mm),
+        Spacer(1, 4*mm),
         Paragraph(
             "Vastu and Numerology are belief-based guidance. This AI response does not replace structural, "
             "legal, financial, safety, valuation or investment due diligence.", body
@@ -173,3 +231,4 @@ def build_response_pdf(*, property_name: str, question: str, answer: str, model_
     ]
     doc.build(story)
     return buffer.getvalue()
+

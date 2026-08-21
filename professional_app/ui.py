@@ -337,6 +337,7 @@ def render_results(result: dict, payload: dict) -> None:
                 ax.set_title("Room-wise Vastu scores")
                 fig.tight_layout()
                 st.pyplot(fig, clear_figure=True)
+                st.caption("Room colours show score bands: green = 8–10, sage = 6–7.9, amber = 4–5.9, coral = below 4. These colours are independent of issue severity.")
             else:
                 st.info("Room-wise chart will appear when Vastu details are available.")
         with chart_right:
@@ -350,6 +351,11 @@ def render_results(result: dict, payload: dict) -> None:
                 ax.set_title("Issue severity distribution")
                 fig.tight_layout()
                 st.pyplot(fig, clear_figure=True)
+                if len(severity_counts) == 1:
+                    only_severity, only_count = next(iter(severity_counts.items()))
+                    st.caption(f"All {only_count} evaluated room findings are classified {only_severity}. A single-colour 100% pie is therefore expected.")
+                else:
+                    st.caption("This chart counts the stored issue-severity classifications (Low, Medium, High or Critical); it does not use the room score-band colours shown at left.")
             else:
                 st.info("Severity chart will appear after Vastu assessment.")
         st.markdown("### Directional balance")
@@ -1700,10 +1706,7 @@ def render_portfolio_consultant_page(project_id: int) -> None:
     if answer and answer.get("source_hash") == current_context["source_hash"]:
         st.markdown("### AI Consultant response")
         st.write(answer["answer"])
-        st.caption(
-            f'Generation {answer["history_id"]} · {answer["model_name"]} · '
-            f'{answer["source_hash"][:12]}…'
-        )
+        st.caption("AI response generated from the current saved shortlist context.")
         buyer_name = str(portfolio.get("buyer", {}).get("buyer_name") or "Buyer")
         portfolio_pdf = ai_consultant_service.build_response_pdf(
             property_name=f"{buyer_name} Portfolio",
@@ -1810,10 +1813,7 @@ def render_ai_consultant_page(project_id: int) -> None:
     if answer:
         st.markdown("#### Consultant response")
         st.write(answer["answer"])
-        st.caption(
-            f'Generation {answer["history_id"]} · {answer["model_name"]} · '
-            f'{answer["source_hash"][:12]}…'
-        )
+        st.caption("AI response generated from the selected saved assessment.")
         property_name = str(payload.get("property_name") or payload.get("flat_number") or "Property")
         ai_pdf = ai_consultant_service.build_response_pdf(
             property_name=property_name,
@@ -1832,7 +1832,16 @@ def render_ai_consultant_page(project_id: int) -> None:
     with st.expander("Consultation history"):
         history = ai_consultant_service.history(int(project_id), int(analysis_id))
         if history:
-            st.dataframe(pd.DataFrame(history), use_container_width=True, hide_index=True)
+            display_history = [
+                {
+                    "When": row.get("created_at"),
+                    "Question": row.get("question_text"),
+                    "Response": row.get("answer_text"),
+                    "Status": row.get("status"),
+                }
+                for row in history
+            ]
+            st.dataframe(pd.DataFrame(display_history), use_container_width=True, hide_index=True)
         else:
             st.info("No consultation history.")
 

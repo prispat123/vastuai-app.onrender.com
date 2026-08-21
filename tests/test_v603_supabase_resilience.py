@@ -11,4 +11,4 @@ def test_cloud_repository_has_transient_retry():
     assert "time.sleep" in text
 
 def test_v603_version():
-    assert "6.0.3" in (ROOT/"professional_app"/"version.py").read_text(encoding="utf-8")
+    assert '6.0.8' in (ROOT/"professional_app"/"version.py").read_text(encoding="utf-8")

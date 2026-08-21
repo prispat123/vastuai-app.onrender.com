@@ -2,7 +2,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 
 def test_v605_version():
-    assert "6.0.7" in (ROOT/"professional_app"/"version.py").read_text(encoding="utf-8")
+    assert '6.0.8' in (ROOT/"professional_app"/"version.py").read_text(encoding="utf-8")
 
 def test_cloud_ai_history_helpers():
     text=(ROOT/"platform_core"/"cloud_repository.py").read_text(encoding="utf-8")
