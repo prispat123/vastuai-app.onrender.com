@@ -3,7 +3,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 def test_v606_version():
-    assert "6.0.6" in (ROOT/"professional_app"/"version.py").read_text(encoding="utf-8")
+    assert "6.0.7" in (ROOT/"professional_app"/"version.py").read_text(encoding="utf-8")
 
 def test_safe_filename_helper_exists():
     text=(ROOT/"professional_app"/"ui.py").read_text(encoding="utf-8")
