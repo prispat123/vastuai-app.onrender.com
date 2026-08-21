@@ -726,3 +726,75 @@ def get_pdp(decision_id: str) -> dict[str, Any] | None:
                 "created_at": row.get("created_at"),
             }
     return None
+
+
+def cloud_analysis_uuid(legacy_analysis_id: int) -> str | None:
+    return _analysis_cloud_uuid(int(legacy_analysis_id))
+
+
+def cloud_buyer_uuid(legacy_buyer_id: int) -> str | None:
+    row = _cloud_buyer_by_legacy(int(legacy_buyer_id))
+    return str(row.get("id")) if row else None
+
+
+def save_cloud_ai_exchange(
+    *,
+    context_type: str,
+    context_id: str,
+    mode: str,
+    question: str,
+    answer: str,
+    model_name: str,
+    source_hash: str,
+    status: str,
+    error_text: str = "",
+) -> str:
+    response = _execute(lambda: _table("ai_conversations").insert({
+        "user_id": _uid(),
+        "context_type": context_type,
+        "context_id": context_id,
+        "mode": mode,
+        "role": "assistant",
+        "content": answer or "",
+        "metadata": {
+            "question_text": question or "",
+            "answer_text": answer or "",
+            "model_name": model_name or "",
+            "source_hash": source_hash or "",
+            "status": status or "",
+            "error_text": error_text or "",
+        },
+    }))
+    row = dict((response.data or [{}])[0])
+    return str(row.get("id") or "")
+
+
+def list_cloud_ai_exchanges(
+    *,
+    context_type: str,
+    context_id: str,
+    limit: int = 100,
+) -> list[dict[str, Any]]:
+    response = _execute(lambda: (
+        _table("ai_conversations")
+        .select("*")
+        .eq("user_id", _uid())
+        .eq("context_type", context_type)
+        .eq("context_id", context_id)
+        .order("created_at", desc=True)
+        .limit(int(limit))
+    ))
+    output = []
+    for row in (response.data or []):
+        metadata = dict(row.get("metadata") or {})
+        output.append({
+            "id": str(row.get("id") or ""),
+            "model_name": metadata.get("model_name") or "",
+            "source_hash": metadata.get("source_hash") or "",
+            "question_text": metadata.get("question_text") or "",
+            "answer_text": metadata.get("answer_text") or row.get("content") or "",
+            "status": metadata.get("status") or "Completed",
+            "error_text": metadata.get("error_text") or "",
+            "created_at": row.get("created_at"),
+        })
+    return output

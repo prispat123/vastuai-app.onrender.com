@@ -5,6 +5,7 @@ import json
 from typing import Any
 
 from platform_core.database import connect, initialize_database, transaction
+from platform_core import cloud_repository
 from platform_core.openai_service import OPENAI
 from professional_app.services import portfolio_consultant_service
 
@@ -91,6 +92,16 @@ def portfolio_context(buyer_id: int, decision_ids: list[str] | None = None) -> d
     return context
 
 def history(buyer_id: int, limit: int = 100) -> list[dict[str, Any]]:
+    if cloud_repository.enabled():
+        buyer_uuid = cloud_repository.cloud_buyer_uuid(int(buyer_id))
+        if not buyer_uuid:
+            return []
+        rows = cloud_repository.list_cloud_ai_exchanges(
+            context_type="portfolio", context_id=buyer_uuid, limit=int(limit)
+        )
+        for row in rows:
+            row["buyer_id"] = int(buyer_id)
+        return rows
     initialize_database()
     with connect() as connection:
         return [
@@ -152,18 +163,34 @@ def ask(
     except Exception as exc:
         answer, status, error = "", "Failed", str(exc)
 
-    initialize_database()
-    with transaction() as connection:
-        cursor = connection.execute(
-            """INSERT INTO portfolio_ai_consultant_history(
-               project_id,buyer_id,model_name,source_hash,question_text,answer_text,status,error_text)
-               VALUES(?,?,?,?,?,?,?,?)""",
-            (
-                int(project_id), int(buyer_id), model, context["source_hash"],
-                question, answer, status, error,
-            ),
+    if cloud_repository.enabled():
+        buyer_uuid = cloud_repository.cloud_buyer_uuid(int(buyer_id))
+        if not buyer_uuid:
+            raise RuntimeError("Cloud buyer context was not found for Portfolio Consultant history.")
+        history_id = cloud_repository.save_cloud_ai_exchange(
+            context_type="portfolio",
+            context_id=buyer_uuid,
+            mode=context.get("scope") or "portfolio",
+            question=question,
+            answer=answer,
+            model_name=model,
+            source_hash=context["source_hash"],
+            status=status,
+            error_text=error,
         )
-        history_id = int(cursor.lastrowid)
+    else:
+        initialize_database()
+        with transaction() as connection:
+            cursor = connection.execute(
+                """INSERT INTO portfolio_ai_consultant_history(
+                   project_id,buyer_id,model_name,source_hash,question_text,answer_text,status,error_text)
+                   VALUES(?,?,?,?,?,?,?,?)""",
+                (
+                    int(project_id), int(buyer_id), model, context["source_hash"],
+                    question, answer, status, error,
+                ),
+            )
+            history_id = int(cursor.lastrowid)
 
     if error:
         raise RuntimeError(

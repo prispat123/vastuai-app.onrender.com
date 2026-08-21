@@ -6,6 +6,7 @@ import html
 from typing import Any
 
 from platform_core.database import connect, initialize_database, transaction
+from platform_core import cloud_repository
 from platform_core.openai_service import OPENAI
 from assessment_core.record_compatibility import normalize_professional_result
 
@@ -53,19 +54,35 @@ def ask(project_id: int, analysis_id: int, payload: dict, result: dict, question
         status, error = "Completed", ""
     except Exception as exc:
         answer, status, error = "", "Failed", str(exc)
-    initialize_database()
-    with transaction() as connection:
-        cursor = connection.execute(
-            """INSERT INTO professional_ai_consultant_history(
-               project_id,analysis_id,mode,model_name,source_hash,
-               question_text,answer_text,status,error_text)
-               VALUES(?,?,?,?,?,?,?,?,?)""",
-            (
-                int(project_id), int(analysis_id), "property", model,
-                context["source_hash"], question.strip(), answer, status, error,
-            ),
+    if cloud_repository.enabled():
+        context_uuid = cloud_repository.cloud_analysis_uuid(int(analysis_id))
+        if not context_uuid:
+            raise RuntimeError("Cloud assessment context was not found for AI Consultant history.")
+        history_id = cloud_repository.save_cloud_ai_exchange(
+            context_type="property",
+            context_id=context_uuid,
+            mode="property",
+            question=question.strip(),
+            answer=answer,
+            model_name=model,
+            source_hash=context["source_hash"],
+            status=status,
+            error_text=error,
         )
-        history_id = int(cursor.lastrowid)
+    else:
+        initialize_database()
+        with transaction() as connection:
+            cursor = connection.execute(
+                """INSERT INTO professional_ai_consultant_history(
+                   project_id,analysis_id,mode,model_name,source_hash,
+                   question_text,answer_text,status,error_text)
+                   VALUES(?,?,?,?,?,?,?,?,?)""",
+                (
+                    int(project_id), int(analysis_id), "property", model,
+                    context["source_hash"], question.strip(), answer, status, error,
+                ),
+            )
+            history_id = int(cursor.lastrowid)
     if error:
         raise RuntimeError(f"AI Consultant request failed. Audit record {history_id}: {error}")
     return {
@@ -75,6 +92,13 @@ def ask(project_id: int, analysis_id: int, payload: dict, result: dict, question
 
 
 def history(project_id: int, analysis_id: int) -> list[dict]:
+    if cloud_repository.enabled():
+        context_uuid = cloud_repository.cloud_analysis_uuid(int(analysis_id))
+        if not context_uuid:
+            return []
+        return cloud_repository.list_cloud_ai_exchanges(
+            context_type="property", context_id=context_uuid, limit=100
+        )
     initialize_database()
     with connect() as connection:
         return [dict(row) for row in connection.execute(
