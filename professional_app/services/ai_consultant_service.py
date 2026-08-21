@@ -1,6 +1,8 @@
 from __future__ import annotations
 import hashlib
 import json
+import io
+import html
 from typing import Any
 
 from platform_core.database import connect, initialize_database, transaction
@@ -82,3 +84,68 @@ def history(project_id: int, analysis_id: int) -> list[dict]:
                ORDER BY id DESC LIMIT 100""",
             (int(project_id), int(analysis_id)),
         ).fetchall()]
+
+
+def build_response_pdf(*, property_name: str, question: str, answer: str, model_name: str = "") -> bytes:
+    """Create a compact client-friendly PDF of one AI Consultant response."""
+    from reportlab.lib import colors
+    from reportlab.lib.enums import TA_LEFT
+    from reportlab.lib.pagesizes import A4
+    from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+    from reportlab.lib.units import mm
+    from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+
+    buffer = io.BytesIO()
+    styles = getSampleStyleSheet()
+    title = ParagraphStyle(
+        "VastuAITitle", parent=styles["Title"], fontName="Helvetica-Bold",
+        fontSize=20, leading=24, textColor=colors.HexColor("#285943"), alignment=TA_LEFT,
+    )
+    heading = ParagraphStyle(
+        "VastuAIHeading", parent=styles["Heading2"], fontName="Helvetica-Bold",
+        fontSize=11, leading=14, textColor=colors.HexColor("#285943"),
+    )
+    body = ParagraphStyle(
+        "VastuAIBody", parent=styles["BodyText"], fontName="Helvetica",
+        fontSize=9.5, leading=14, textColor=colors.HexColor("#30443A"),
+    )
+    doc = SimpleDocTemplate(
+        buffer, pagesize=A4, leftMargin=18*mm, rightMargin=18*mm,
+        topMargin=18*mm, bottomMargin=18*mm,
+        title=f"VastuAI AI Consultant - {property_name}", author="VastuAI",
+    )
+    story = [
+        Paragraph("VastuAI AI Consultant", title),
+        Paragraph(html.escape(property_name or "Property"), styles["Heading2"]),
+        Spacer(1, 5*mm),
+        Table(
+            [["Question", Paragraph(html.escape(question), body)],
+             ["Model", html.escape(model_name or "VastuAI AI Consultant")]],
+            colWidths=[30*mm, 130*mm],
+            style=TableStyle([
+                ("BACKGROUND",(0,0),(0,-1),colors.HexColor("#EAF2EE")),
+                ("TEXTCOLOR",(0,0),(0,-1),colors.HexColor("#285943")),
+                ("FONTNAME",(0,0),(0,-1),"Helvetica-Bold"),
+                ("GRID",(0,0),(-1,-1),0.35,colors.HexColor("#B8D2C5")),
+                ("VALIGN",(0,0),(-1,-1),"TOP"),
+                ("PADDING",(0,0),(-1,-1),6),
+            ])
+        ),
+        Spacer(1, 7*mm),
+        Paragraph("Consultant response", heading),
+        Spacer(1, 2*mm),
+    ]
+    for para in str(answer or "").split("\\n"):
+        text = para.strip()
+        if text:
+            story.append(Paragraph(html.escape(text), body))
+            story.append(Spacer(1, 2*mm))
+    story += [
+        Spacer(1, 5*mm),
+        Paragraph(
+            "Vastu and Numerology are belief-based guidance. This AI response does not replace structural, "
+            "legal, financial, safety, valuation or investment due diligence.", body
+        )
+    ]
+    doc.build(story)
+    return buffer.getvalue()

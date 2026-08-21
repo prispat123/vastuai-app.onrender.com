@@ -4,6 +4,7 @@ import re
 import uuid
 from typing import Any
 from platform_core.database import connect, initialize_database, transaction
+from platform_core import cloud_repository
 
 
 def _clean(value: Any) -> str:
@@ -51,6 +52,8 @@ def link_pdp_to_buyer(connection, *, pdp_id: int, profile: dict[str, Any]) -> in
 
 
 def sync_buyers_from_pdps() -> dict[str, Any]:
+    if cloud_repository.enabled():
+        return cloud_repository.sync_cloud_buyers_from_pdps()
     initialize_database()
     linked, failures = 0, []
     with transaction() as connection:
@@ -79,6 +82,8 @@ def sync_buyers_from_pdps() -> dict[str, Any]:
 
 
 def list_buyers() -> list[dict[str, Any]]:
+    if cloud_repository.enabled():
+        return cloud_repository.list_cloud_buyers()
     initialize_database()
     with connect() as connection:
         rows = connection.execute(
@@ -101,6 +106,8 @@ def list_buyers() -> list[dict[str, Any]]:
 
 
 def get_buyer(buyer_id: int) -> dict[str, Any] | None:
+    if cloud_repository.enabled():
+        return cloud_repository.get_cloud_buyer(int(buyer_id))
     initialize_database()
     with connect() as connection:
         row = connection.execute(
@@ -110,6 +117,8 @@ def get_buyer(buyer_id: int) -> dict[str, Any] | None:
 
 
 def buyer_for_pdp(pdp_id: int) -> dict[str, Any] | None:
+    if cloud_repository.enabled():
+        return cloud_repository.cloud_buyer_for_pdp(int(pdp_id))
     initialize_database()
     with connect() as connection:
         row = connection.execute(
@@ -142,6 +151,8 @@ def _enrich(row) -> dict[str, Any]:
 
 
 def list_buyer_pdps(buyer_id: int) -> list[dict[str, Any]]:
+    if cloud_repository.enabled():
+        return cloud_repository.list_cloud_buyer_pdps(int(buyer_id))
     initialize_database()
     with connect() as connection:
         rows = connection.execute(
@@ -161,6 +172,8 @@ def list_buyer_pdps(buyer_id: int) -> list[dict[str, Any]]:
 
 
 def list_shortlist(buyer_id: int) -> list[dict[str, Any]]:
+    if cloud_repository.enabled():
+        return cloud_repository.list_cloud_shortlist(int(buyer_id))
     initialize_database()
     with connect() as connection:
         rows = connection.execute(
@@ -178,6 +191,8 @@ def list_shortlist(buyer_id: int) -> list[dict[str, Any]]:
 
 
 def is_shortlisted(buyer_id: int, pdp_id: int) -> bool:
+    if cloud_repository.enabled():
+        return cloud_repository.cloud_is_shortlisted(int(buyer_id), int(pdp_id))
     initialize_database()
     with connect() as connection:
         row = connection.execute(
@@ -189,6 +204,8 @@ def is_shortlisted(buyer_id: int, pdp_id: int) -> bool:
 
 
 def normalize_shortlist_order(buyer_id: int) -> None:
+    if cloud_repository.enabled():
+        return
     initialize_database()
     with transaction() as connection:
         rows = connection.execute(
@@ -207,6 +224,9 @@ def normalize_shortlist_order(buyer_id: int) -> None:
 
 
 def add_to_shortlist(buyer_id: int, pdp_id: int) -> None:
+    if cloud_repository.enabled():
+        cloud_repository.cloud_add_to_shortlist(int(buyer_id), int(pdp_id))
+        return
     initialize_database()
     with transaction() as connection:
         pdp = connection.execute(
@@ -248,6 +268,9 @@ def add_to_shortlist(buyer_id: int, pdp_id: int) -> None:
 
 
 def remove_from_shortlist(buyer_id: int, pdp_id: int) -> None:
+    if cloud_repository.enabled():
+        cloud_repository.cloud_remove_from_shortlist(int(buyer_id), int(pdp_id))
+        return
     initialize_database()
     with transaction() as connection:
         connection.execute(
@@ -260,6 +283,9 @@ def remove_from_shortlist(buyer_id: int, pdp_id: int) -> None:
 
 
 def move_shortlist_item(buyer_id: int, pdp_id: int, direction: str) -> None:
+    if cloud_repository.enabled():
+        cloud_repository.cloud_move_shortlist_item(int(buyer_id), int(pdp_id), direction)
+        return
     items = list_shortlist(buyer_id)
     ids = [int(item["id"]) for item in items]
     target = int(pdp_id)
@@ -282,6 +308,9 @@ def move_shortlist_item(buyer_id: int, pdp_id: int, direction: str) -> None:
 
 
 def update_buyer_contact(buyer_id: int, *, email: str, phone: str) -> None:
+    if cloud_repository.enabled():
+        cloud_repository.cloud_update_buyer_contact(int(buyer_id), email=email, phone=phone)
+        return
     initialize_database()
     with transaction() as connection:
         connection.execute(

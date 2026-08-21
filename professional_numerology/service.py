@@ -5,6 +5,8 @@ import json
 from assessment_core import build_snapshot
 from numerology_engine import NumerologyRepository
 from platform_core.database import connect, initialize_database, transaction
+from platform_core import cloud_repository
+from professional_app.services import history_service
 
 
 def _ensure_schema() -> None:
@@ -34,6 +36,9 @@ def repository() -> NumerologyRepository:
 
 
 def list_properties(project_id: int) -> list[dict]:
+    if cloud_repository.enabled():
+        history_service.set_active_project(int(project_id))
+        return history_service.list_analyses(limit=500)
     _ensure_schema()
     with connect() as connection:
         rows = connection.execute(
@@ -50,6 +55,9 @@ def list_properties(project_id: int) -> list[dict]:
 
 
 def get_property(project_id: int, analysis_id: int) -> dict | None:
+    if cloud_repository.enabled():
+        history_service.set_active_project(int(project_id))
+        return history_service.get_analysis(int(analysis_id))
     _ensure_schema()
     with connect() as connection:
         row = connection.execute(
@@ -88,6 +96,9 @@ def run_assessment(project_id: int, analysis_id: int) -> dict:
     )
     result = snapshot["numerology"]["knowledge_result"]
 
+    if cloud_repository.enabled():
+        return {"saved_property": saved, "snapshot": snapshot, "result": result}
+
     with transaction() as connection:
         connection.execute(
             """
@@ -113,6 +124,17 @@ def run_assessment(project_id: int, analysis_id: int) -> dict:
 
 
 def latest_assessment(project_id: int, analysis_id: int) -> dict | None:
+    if cloud_repository.enabled():
+        saved = get_property(project_id, analysis_id)
+        if not saved:
+            return None
+        try:
+            return build_snapshot(
+                payload=saved["payload"],
+                professional_result=saved["result"],
+            )["numerology"]["knowledge_result"]
+        except Exception:
+            return None
     _ensure_schema()
     with connect() as connection:
         row = connection.execute(

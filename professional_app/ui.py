@@ -1696,6 +1696,21 @@ def render_portfolio_consultant_page(project_id: int) -> None:
             f'Generation {answer["history_id"]} · {answer["model_name"]} · '
             f'{answer["source_hash"][:12]}…'
         )
+        property_name = str(payload.get("property_name") or payload.get("flat_number") or "Property")
+        ai_pdf = ai_consultant_service.build_response_pdf(
+            property_name=property_name,
+            question=str(st.session_state.get("ai_consultant_question") or ""),
+            answer=str(answer["answer"]),
+            model_name=str(answer.get("model_name") or ""),
+        )
+        st.download_button(
+            "Download AI Response PDF",
+            data=ai_pdf,
+            file_name=f"VastuAI_{_safe_filename(property_name)}_AI_Consultant.pdf",
+            mime="application/pdf",
+            use_container_width=True,
+            key=f"ai_response_pdf_{analysis_id}_{answer['history_id']}",
+        )
 
     with st.expander("Conversation history"):
         chat_history = portfolio_chat_service.history(int(buyer_id))
