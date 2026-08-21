@@ -101,6 +101,13 @@ EXTRA_ROOM_FIELDS = [
 ]
 
 
+def _safe_filename(value: str) -> str:
+    """Return a conservative cross-platform filename stem."""
+    cleaned = re.sub(r"[^A-Za-z0-9._-]+", "_", str(value or "").strip())
+    cleaned = cleaned.strip("._-")
+    return cleaned[:80] or "VastuAI"
+
+
 def apply_theme() -> None:
     st.markdown(
         """
@@ -108,7 +115,7 @@ def apply_theme() -> None:
         :root{--va-green:#A8D5BA;--va-green-dark:#5F8F72;--va-mint:#DDF3E5;--va-amber:#F6D6A8;--va-coral:#F3B6A7;--va-red:#E9A7A7;--va-cream:#FFF9F0;--va-ink:#26372E}
         .stApp{background:linear-gradient(180deg,#fbfefb 0%,#f6fbf7 50%,#fffaf4 100%);color:var(--va-ink)}
         [data-testid="stSidebar"]{background:linear-gradient(180deg,#edf8f0 0%,#f8fcf8 100%);border-right:1px solid #d7eadc}
-        .block-container {max-width:100%;padding:.8rem 1.1rem 2.5rem 1.1rem}
+        .block-container {max-width:100%;padding:2.15rem 1.1rem 2.5rem 1.1rem}
         .hero {padding:1.15rem 1.3rem;border:1px solid #cfe5d5;border-radius:18px;background:linear-gradient(135deg,#DDF3E5,#FFF6E8);margin-bottom:1rem;box-shadow:0 5px 18px rgba(89,125,100,.08)}
         .hero h1 {margin:0;font-size:var(--vai-page-title,1.72rem);letter-spacing:-.025em;color:#315C43}.hero p{margin:.32rem 0 0;font-size:var(--vai-body,.94rem);opacity:.78}
         .section-kicker{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#5F8F72;margin-bottom:.15rem}
@@ -129,7 +136,7 @@ def apply_theme() -> None:
         .stButton>button[kind="primary"]:hover,.stDownloadButton>button[kind="primary"]:hover{background:#5F9F75!important;border-color:#5F9F75!important}
         div[data-baseweb="tab-list"]{gap:.25rem} button[data-baseweb="tab"]{border-radius:9px 9px 0 0} button[data-baseweb="tab"][aria-selected="true"]{background:#E5F4E9;color:#315C43}
         @media (max-width:768px){
-          .block-container{padding:.65rem .72rem 2rem!important}
+          .block-container{padding:1.45rem .72rem 2rem!important}
           .hero{padding:.88rem .9rem!important;border-radius:14px!important;margin-bottom:.7rem!important}
           .consult-card{padding:.82rem .85rem!important;margin:.35rem 0 .7rem!important}
           .step-card{min-height:0!important;padding:.68rem .72rem!important}

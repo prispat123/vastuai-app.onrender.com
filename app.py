@@ -35,7 +35,7 @@ st.markdown(
       --vai-body:.94rem; --vai-label:.86rem; --vai-caption:.78rem; --vai-metric:1.22rem;
     }
     html, body, [class*="css"] {font-size:16px;}
-    .block-container {max-width:1480px;padding-top:1rem;padding-bottom:3rem;}
+    .block-container {max-width:1480px;padding-top:2.15rem;padding-bottom:3rem;}
     .stApp {background:linear-gradient(180deg,#FCFEFC 0%,#F3FAF5 100%);color:var(--vai-ink);}
     .stApp p, .stApp li, .stApp span, .stApp div[data-testid="stMarkdownContainer"] p {font-size:var(--vai-body);line-height:1.48;}
     .stApp h1 {font-size:var(--vai-page-title)!important;line-height:1.18!important;letter-spacing:-.025em!important;color:var(--vai-sage-deep)!important;font-weight:700!important;}
@@ -88,7 +88,7 @@ st.markdown(
         --vai-page-title:1.42rem; --vai-section-title:1.16rem; --vai-subtitle:1rem;
         --vai-body:.91rem; --vai-label:.84rem; --vai-caption:.76rem; --vai-metric:1.12rem;
       }
-      .block-container {padding:.65rem .72rem 2rem!important;max-width:100%!important;}
+      .block-container {padding:1.45rem .72rem 2rem!important;max-width:100%!important;}
       header[data-testid="stHeader"] {background:rgba(252,254,252,.94)!important;}
       section[data-testid="stSidebar"] {width:min(88vw,320px)!important;}
       section[data-testid="stSidebar"] > div {width:100%!important;}
