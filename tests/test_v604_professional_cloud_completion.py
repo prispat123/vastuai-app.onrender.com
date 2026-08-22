@@ -3,7 +3,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 
 def test_v604_version():
-    assert '6.0.8' in (ROOT/"professional_app"/"version.py").read_text(encoding="utf-8")
+    assert '6.0.10' in (ROOT/"professional_app"/"version.py").read_text(encoding="utf-8")
 
 def test_cloud_pdp_has_integer_compat_id():
     text=(ROOT/"platform_core"/"cloud_repository.py").read_text(encoding="utf-8")

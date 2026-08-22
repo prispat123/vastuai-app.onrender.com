@@ -48,4 +48,4 @@ def test_dashboard_explains_score_vs_severity_colours():
 
 def test_version_is_608():
     from professional_app.version import __version__
-    assert __version__ == "6.0.8"
+    assert __version__ == "6.0.10"
